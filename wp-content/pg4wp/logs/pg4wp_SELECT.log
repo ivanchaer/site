@@ -17900,3 +17900,43 @@ SELECT * FROM wp_users WHERE ID = '1'
 ---- to ----
 SELECT * FROM wp_users WHERE "ID" = '1'
 ---------------------
+[1355777444.91] Converting :
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.ID = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---- to ----
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts."ID" = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---------------------
+[1355777444.92] Converting :
+SELECT * FROM wp_users WHERE ID = '1'
+---- to ----
+SELECT * FROM wp_users WHERE "ID" = '1'
+---------------------
+[1355777450.5] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('fadima-konate') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('fadima-konate') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355777450.5] Converting :
+SELECT * FROM wp_posts WHERE ID = 5 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 5 LIMIT 1
+---------------------
+[1355777450.5] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('fadima-konate') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('fadima-konate') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355777450.5] Converting :
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND (wp_posts.ID = '5') AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---- to ----
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND (wp_posts."ID" = '5') AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---------------------
+[1355777453.2] Converting :
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.ID = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---- to ----
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts."ID" = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---------------------
+[1355777453.2] Converting :
+SELECT * FROM wp_users WHERE ID = '1'
+---- to ----
+SELECT * FROM wp_users WHERE "ID" = '1'
+---------------------

@@ -5,7 +5,7 @@
 <meta name="description" content="African Dances and Traditions from Guinea" />
 
 <meta name="keywords" content="dance, djembe, guinea, konate, conakry, black, culture, famoudou, drum, percussion, art, culture, tradition" />
-<link rel="canonical" href="http://fadimakonate.com/" />
+<!-- link rel="canonical" href="http://fadimakonate.com/" / -->
 <LINK REL="SHORTCUT ICON" HREF="/favicon.ico"> 
 
 <title>Fadima Konate - African dance and tradition</title>

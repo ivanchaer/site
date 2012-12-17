@@ -492,3 +492,6 @@
 [1355777257.27] Getting inserted ID for 'wp_options' ('option_name') : SELECT CURRVAL('wp_options_seq') => 636
 [1355777290.79] Getting inserted ID for 'wp_options' ('option_name') : SELECT CURRVAL('wp_options_seq') => 637
 [1355777298.82] Getting inserted ID for 'wp_options' ('option_name') : SELECT CURRVAL('wp_options_seq') => 638
+[1355777444.91] Getting inserted ID for 'wp_options' ('option_name') : SELECT CURRVAL('wp_options_seq') => 639
+[1355777450.49] Getting inserted ID for 'wp_options' ('option_name') : SELECT CURRVAL('wp_options_seq') => 640
+[1355777453.19] Getting inserted ID for 'wp_options' ('option_name') : SELECT CURRVAL('wp_options_seq') => 641

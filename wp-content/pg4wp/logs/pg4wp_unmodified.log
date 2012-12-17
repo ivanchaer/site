@@ -34638,3 +34638,221 @@
 ---------------------
 [1355777398.9] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
 ---------------------
+[1355777444.6] SET NAMES 'utf8'
+---------------------
+[1355777444.6] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1355777444.89] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1355777444.89] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1355777444.89] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1355777444.89] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1355777444.89] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1355777444.9] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1355777444.91] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (252)
+---------------------
+[1355777444.92] SELECT user_id, meta_key, meta_value FROM wp_usermeta WHERE user_id IN (1)
+---------------------
+[1355777449.17] SET NAMES 'utf8'
+---------------------
+[1355777449.18] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1355777449.47] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1355777449.47] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1355777449.47] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1355777449.47] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1355777449.48] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1355777449.48] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1355777450.24] SET NAMES 'utf8'
+---------------------
+[1355777450.25] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1355777450.47] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1355777450.47] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1355777450.47] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1355777450.48] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1355777450.48] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1355777450.48] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1355777450.5] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (5)
+---------------------
+[1355777452.92] SET NAMES 'utf8'
+---------------------
+[1355777452.93] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1355777453.17] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1355777453.17] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1355777453.18] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1355777453.18] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1355777453.18] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1355777453.18] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1355777453.2] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (252)
+---------------------
+[1355777453.21] SELECT user_id, meta_key, meta_value FROM wp_usermeta WHERE user_id IN (1)
+---------------------
+[1355777458.61] SET NAMES 'utf8'
+---------------------
+[1355777458.61] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1355777458.85] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1355777458.85] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1355777458.85] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1355777458.86] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1355777458.86] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1355777458.86] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1355777509.17] SET NAMES 'utf8'
+---------------------
+[1355777509.18] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1355777509.44] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1355777509.44] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1355777509.44] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1355777509.44] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1355777509.44] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1355777509.44] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1355777518.62] SET NAMES 'utf8'
+---------------------
+[1355777518.62] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1355777518.89] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1355777518.9] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1355777518.9] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1355777518.9] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1355777518.9] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1355777518.9] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1355777569.18] SET NAMES 'utf8'
+---------------------
+[1355777569.18] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1355777569.47] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1355777569.47] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1355777569.47] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1355777569.48] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1355777569.48] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1355777569.48] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1355777578.65] SET NAMES 'utf8'
+---------------------
+[1355777578.67] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1355777579.02] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1355777579.02] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1355777579.02] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1355777579.03] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1355777579.03] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1355777579.03] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1355777629.18] SET NAMES 'utf8'
+---------------------
+[1355777629.19] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1355777629.46] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1355777629.46] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1355777629.46] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1355777629.46] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1355777629.46] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1355777629.47] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1355777638.63] SET NAMES 'utf8'
+---------------------
+[1355777638.64] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1355777638.92] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1355777638.92] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1355777638.92] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1355777638.92] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1355777638.92] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1355777638.93] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1355777689.2] SET NAMES 'utf8'
+---------------------
+[1355777689.2] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1355777689.47] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1355777689.47] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1355777689.47] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1355777689.48] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1355777689.48] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1355777689.48] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1355777698.64] SET NAMES 'utf8'
+---------------------
+[1355777698.65] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1355777698.93] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1355777698.93] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1355777698.93] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1355777698.93] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1355777698.93] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1355777698.94] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
