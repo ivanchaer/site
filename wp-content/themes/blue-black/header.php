@@ -12,7 +12,7 @@
 	<![endif]-->
 <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="<?php bloginfo('rss2_url'); ?>" />
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
-<LINK REL="SHORTCUT ICON" HREF="http://www.fadimakonate.com/favicon.ico"> 
+<LINK REL="SHORTCUT ICON" HREF="/favicon.ico"> 
 <?php wp_head(); ?>
 </head>
 <body>

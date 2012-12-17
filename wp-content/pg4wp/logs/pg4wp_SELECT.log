@@ -17860,3 +17860,43 @@ SELECT * FROM wp_posts WHERE ID = 5 LIMIT 1
 ---- to ----
 SELECT * FROM wp_posts WHERE "ID" = 5 LIMIT 1
 ---------------------
+[1355777255.26] Converting :
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.ID = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---- to ----
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts."ID" = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---------------------
+[1355777255.27] Converting :
+SELECT * FROM wp_users WHERE ID = '1'
+---- to ----
+SELECT * FROM wp_users WHERE "ID" = '1'
+---------------------
+[1355777257.28] Converting :
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.ID = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---- to ----
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts."ID" = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---------------------
+[1355777257.28] Converting :
+SELECT * FROM wp_users WHERE ID = '1'
+---- to ----
+SELECT * FROM wp_users WHERE "ID" = '1'
+---------------------
+[1355777290.79] Converting :
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.ID = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---- to ----
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts."ID" = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---------------------
+[1355777290.79] Converting :
+SELECT * FROM wp_users WHERE ID = '1'
+---- to ----
+SELECT * FROM wp_users WHERE "ID" = '1'
+---------------------
+[1355777298.82] Converting :
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.ID = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---- to ----
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts."ID" = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---------------------
+[1355777298.83] Converting :
+SELECT * FROM wp_users WHERE ID = '1'
+---- to ----
+SELECT * FROM wp_users WHERE "ID" = '1'
+---------------------
