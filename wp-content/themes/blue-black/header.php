@@ -30,7 +30,7 @@
         <!--page-navigation-->
         <div id="menu">
         	<ul>
-				<?php wp_list_pages('sort_order=asc&title_li=&depth=1'); ?>
+				<?php wp_list_pages('sort_order=asc&title_li=&depth=1&exclude=252'); ?>
             </ul>
         </div><!--page-navigation-->
         

@@ -1,0 +1,20 @@
+[1355775193.54] Converting :
+DELETE FROM wp_term_relationships WHERE object_id = 3 AND term_taxonomy_id IN ('')
+---- to ----
+DELETE FROM wp_term_relationships WHERE object_id = 3 AND term_taxonomy_id IN (NULL)
+---------------------
+[1355775193.54] Converting :
+DELETE FROM wp_term_relationships WHERE object_id = 3 AND term_taxonomy_id IN ('')
+---- to ----
+DELETE FROM wp_term_relationships WHERE object_id = 3 AND term_taxonomy_id IN (NULL)
+---------------------
+[1355775193.54] Converting :
+DELETE FROM wp_term_relationships WHERE object_id = 3 AND term_taxonomy_id IN ('')
+---- to ----
+DELETE FROM wp_term_relationships WHERE object_id = 3 AND term_taxonomy_id IN (NULL)
+---------------------
+[1355775193.59] Converting :
+DELETE FROM wp_posts WHERE ID = 3
+---- to ----
+DELETE FROM wp_posts WHERE "ID" = 3
+---------------------

@@ -31,3 +31,21 @@ SELECT   wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.post_type = 'post' A
 [1355752439.45] Number of rows required for :
 SELECT   wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.post_type = 'post' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'private')  ORDER BY wp_posts.post_date DESC LIMIT 0, 10
 ---------------------
+[1355773823.31] Number of rows required for :
+SELECT   wp_posts.ID FROM wp_posts  WHERE 1=1  AND (wp_posts.post_author = 1) AND wp_posts.post_type = 'post' AND (wp_posts.post_status = 'draft')  ORDER BY wp_posts.post_modified DESC LIMIT 0, 5
+---------------------
+[1355774242.94] Number of rows required for :
+SELECT   wp_posts.ID FROM wp_posts  WHERE 1=1  AND (wp_posts.post_author = 1) AND wp_posts.post_type = 'post' AND (wp_posts.post_status = 'draft')  ORDER BY wp_posts.post_modified DESC LIMIT 0, 5
+---------------------
+[1355775388.75] Number of rows required for :
+SELECT   wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.post_type = 'post' AND (wp_posts.post_status = 'publish')  ORDER BY wp_posts.post_title ASC LIMIT 0, 50
+---------------------
+[1355775388.75] Number of rows required for :
+SELECT   wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.post_type = 'post' AND (wp_posts.post_status = 'publish')  ORDER BY wp_posts.post_date DESC LIMIT 0, 15
+---------------------
+[1355775388.76] Number of rows required for :
+SELECT   wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.post_type = 'page' AND (wp_posts.post_status = 'publish')  ORDER BY wp_posts.menu_order,wp_posts.post_title ASC LIMIT 0, 50
+---------------------
+[1355775388.77] Number of rows required for :
+SELECT   wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.post_type = 'page' AND (wp_posts.post_status = 'publish')  ORDER BY wp_posts.post_date DESC LIMIT 0, 15
+---------------------

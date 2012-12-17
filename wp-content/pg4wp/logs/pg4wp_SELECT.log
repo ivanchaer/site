@@ -15405,3 +15405,2458 @@ SELECT * FROM wp_posts WHERE ID = 132 LIMIT 1
 ---- to ----
 SELECT * FROM wp_posts WHERE "ID" = 132 LIMIT 1
 ---------------------
+[1355772282.56] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('fotos','africa') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('fotos','africa') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355772282.56] Converting :
+SELECT * FROM wp_posts WHERE ID = 133 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 133 LIMIT 1
+---------------------
+[1355772282.57] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('fotos','africa') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('fotos','africa') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355772282.57] Converting :
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND (wp_posts.ID = '133') AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---- to ----
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND (wp_posts."ID" = '133') AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---------------------
+[1355772304.83] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('fotos','africa') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('fotos','africa') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355772304.83] Converting :
+SELECT * FROM wp_posts WHERE ID = 133 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 133 LIMIT 1
+---------------------
+[1355772304.84] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('fotos','africa') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('fotos','africa') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355772304.84] Converting :
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND (wp_posts.ID = '133') AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---- to ----
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND (wp_posts."ID" = '133') AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---------------------
+[1355772517.18] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('fotos') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('fotos') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355772517.18] Converting :
+SELECT * FROM wp_posts WHERE ID = 37 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 37 LIMIT 1
+---------------------
+[1355772517.19] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('fotos') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('fotos') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355772517.19] Converting :
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND (wp_posts.ID = '37') AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---- to ----
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND (wp_posts."ID" = '37') AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---------------------
+[1355773798.82] Converting :
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.ID = 5 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---- to ----
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts."ID" = 5 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---------------------
+[1355773798.85] Converting :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-10-25 00:04:11' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+---- to ----
+SELECT "ID" FROM wp_posts AS p  WHERE p.post_date < '2009-10-25 00:04:11' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+---------------------
+[1355773798.86] Converting :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-10-25 00:04:11' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+---- to ----
+SELECT "ID" FROM wp_posts AS p  WHERE p.post_date > '2009-10-25 00:04:11' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+---------------------
+[1355773798.86] Converting :
+SELECT * FROM wp_posts WHERE ID = 7 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 7 LIMIT 1
+---------------------
+[1355773798.86] Converting :
+SELECT * FROM wp_users WHERE ID = '1'
+---- to ----
+SELECT * FROM wp_users WHERE "ID" = '1'
+---------------------
+[1355773823.27] Converting :
+SELECT * FROM wp_posts WHERE ID = 5 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 5 LIMIT 1
+---------------------
+[1355773823.3] Converting :
+SELECT * FROM wp_posts WHERE ID = 3 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 3 LIMIT 1
+---------------------
+[1355773823.31] Converting :
+SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID FROM wp_posts  WHERE 1=1  AND (wp_posts.post_author = 1) AND wp_posts.post_type = 'post' AND (wp_posts.post_status = 'draft')  ORDER BY wp_posts.post_modified DESC LIMIT 0, 5
+---- to ----
+SELECT   wp_posts."ID" FROM wp_posts  WHERE 1=1  AND (wp_posts.post_author = 1) AND wp_posts.post_type = 'post' AND (wp_posts.post_status = 'draft')  ORDER BY wp_posts.post_modified DESC LIMIT 5 OFFSET 0
+---------------------
+[1355773846.18] Converting :
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.ID = 5 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---- to ----
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts."ID" = 5 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---------------------
+[1355773846.2] Converting :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-10-25 00:04:11' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+---- to ----
+SELECT "ID" FROM wp_posts AS p  WHERE p.post_date < '2009-10-25 00:04:11' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+---------------------
+[1355773846.2] Converting :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-10-25 00:04:11' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+---- to ----
+SELECT "ID" FROM wp_posts AS p  WHERE p.post_date > '2009-10-25 00:04:11' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+---------------------
+[1355773846.2] Converting :
+SELECT * FROM wp_posts WHERE ID = 7 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 7 LIMIT 1
+---------------------
+[1355773886.82] Converting :
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.ID = 5 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---- to ----
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts."ID" = 5 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---------------------
+[1355773886.84] Converting :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-10-25 00:04:11' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+---- to ----
+SELECT "ID" FROM wp_posts AS p  WHERE p.post_date < '2009-10-25 00:04:11' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+---------------------
+[1355773886.84] Converting :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-10-25 00:04:11' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+---- to ----
+SELECT "ID" FROM wp_posts AS p  WHERE p.post_date > '2009-10-25 00:04:11' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+---------------------
+[1355773886.84] Converting :
+SELECT * FROM wp_posts WHERE ID = 7 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 7 LIMIT 1
+---------------------
+[1355773906.85] Converting :
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.ID = 5 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---- to ----
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts."ID" = 5 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---------------------
+[1355773906.87] Converting :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-10-25 00:04:11' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+---- to ----
+SELECT "ID" FROM wp_posts AS p  WHERE p.post_date < '2009-10-25 00:04:11' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+---------------------
+[1355773906.87] Converting :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-10-25 00:04:11' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+---- to ----
+SELECT "ID" FROM wp_posts AS p  WHERE p.post_date > '2009-10-25 00:04:11' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+---------------------
+[1355773906.87] Converting :
+SELECT * FROM wp_posts WHERE ID = 7 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 7 LIMIT 1
+---------------------
+[1355773967.7] Converting :
+SELECT COUNT(NULLIF(`meta_value` LIKE '%"administrator"%', false)), COUNT(NULLIF(`meta_value` LIKE '%"editor"%', false)), COUNT(NULLIF(`meta_value` LIKE '%"author"%', false)), COUNT(NULLIF(`meta_value` LIKE '%"contributor"%', false)), COUNT(NULLIF(`meta_value` LIKE '%"subscriber"%', false)), COUNT(*) FROM wp_usermeta WHERE meta_key = 'wp_capabilities'
+---- to ----
+SELECT COUNT(NULLIF(meta_value ILIKE '%"administrator"%', false)) AS count0, COUNT(NULLIF(meta_value ILIKE '%"editor"%', false)) AS count1, COUNT(NULLIF(meta_value ILIKE '%"author"%', false)) AS count2, COUNT(NULLIF(meta_value ILIKE '%"contributor"%', false)) AS count3, COUNT(NULLIF(meta_value ILIKE '%"subscriber"%', false)) AS count4, COUNT(*) FROM wp_usermeta WHERE meta_key = 'wp_capabilities'
+---------------------
+[1355774008.92] Converting :
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.ID = 5 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---- to ----
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts."ID" = 5 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---------------------
+[1355774008.93] Converting :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-10-25 00:04:11' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+---- to ----
+SELECT "ID" FROM wp_posts AS p  WHERE p.post_date < '2009-10-25 00:04:11' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+---------------------
+[1355774008.93] Converting :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-10-25 00:04:11' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+---- to ----
+SELECT "ID" FROM wp_posts AS p  WHERE p.post_date > '2009-10-25 00:04:11' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+---------------------
+[1355774008.93] Converting :
+SELECT * FROM wp_posts WHERE ID = 7 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 7 LIMIT 1
+---------------------
+[1355774242.92] Converting :
+SELECT * FROM wp_posts WHERE ID = 5 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 5 LIMIT 1
+---------------------
+[1355774242.93] Converting :
+SELECT * FROM wp_posts WHERE ID = 3 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 3 LIMIT 1
+---------------------
+[1355774242.94] Converting :
+SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID FROM wp_posts  WHERE 1=1  AND (wp_posts.post_author = 1) AND wp_posts.post_type = 'post' AND (wp_posts.post_status = 'draft')  ORDER BY wp_posts.post_modified DESC LIMIT 0, 5
+---- to ----
+SELECT   wp_posts."ID" FROM wp_posts  WHERE 1=1  AND (wp_posts.post_author = 1) AND wp_posts.post_type = 'post' AND (wp_posts.post_status = 'draft')  ORDER BY wp_posts.post_modified DESC LIMIT 5 OFFSET 0
+---------------------
+[1355774246.51] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('wp-admin','edit-php') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('wp-admin','edit-php') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355774246.56] Converting :
+SELECT DISTINCT YEAR( post_date ) AS year, MONTH( post_date ) AS month
+			FROM wp_posts
+			WHERE post_type = 'page'
+			ORDER BY post_date DESC
+---- to ----
+SELECT DISTINCT EXTRACT(YEAR FROM  post_date ) AS year, EXTRACT(MONTH FROM  post_date ) AS month
+			FROM wp_posts
+			WHERE post_type = 'page'
+			ORDER BY EXTRACT(YEAR FROM post_date) DESC, EXTRACT(MONTH FROM post_date) DESC
+---------------------
+[1355774246.62] Converting :
+SELECT * FROM wp_posts WHERE ID = 2009 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 2009 LIMIT 1
+---------------------
+[1355774246.62] Converting :
+SELECT * FROM wp_posts WHERE ID = 2009 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 2009 LIMIT 1
+---------------------
+[1355774246.62] Converting :
+SELECT * FROM wp_posts WHERE ID = 2009 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 2009 LIMIT 1
+---------------------
+[1355774246.62] Converting :
+SELECT wp_users.ID,wp_users.display_name FROM wp_users INNER JOIN wp_usermeta ON (wp_users.ID = wp_usermeta.user_id) WHERE 1=1 AND ( (wp_usermeta.meta_key = 'wp_user_level' AND CAST(wp_usermeta.meta_value AS CHAR) != '0') ) ORDER BY display_name ASC
+---- to ----
+SELECT wp_users."ID" ,wp_users.display_name FROM wp_users INNER JOIN wp_usermeta ON (wp_users."ID" = wp_usermeta.user_id) WHERE 1=1 AND ( (wp_usermeta.meta_key = 'wp_user_level' AND CAST(wp_usermeta.meta_value AS TEXT) != '0') ) ORDER BY display_name ASC
+---------------------
+[1355774246.64] Converting :
+SELECT wp_users.ID,wp_users.display_name FROM wp_users INNER JOIN wp_usermeta ON (wp_users.ID = wp_usermeta.user_id) WHERE 1=1 AND ( (wp_usermeta.meta_key = 'wp_user_level' AND CAST(wp_usermeta.meta_value AS CHAR) != '0') ) ORDER BY display_name ASC
+---- to ----
+SELECT wp_users."ID" ,wp_users.display_name FROM wp_users INNER JOIN wp_usermeta ON (wp_users."ID" = wp_usermeta.user_id) WHERE 1=1 AND ( (wp_usermeta.meta_key = 'wp_user_level' AND CAST(wp_usermeta.meta_value AS TEXT) != '0') ) ORDER BY display_name ASC
+---------------------
+[1355774292.87] Converting :
+SELECT `comment_post_ID` as `post_id`, COUNT(comment_ID) as `comment_count` FROM `wp_comments` WHERE `comment_approved`='1' GROUP BY `comment_post_ID`
+---- to ----
+SELECT "comment_post_ID" as post_id, COUNT("comment_ID" ) as comment_count FROM wp_comments WHERE comment_approved='1' GROUP BY "comment_post_ID" 
+---------------------
+[1355774292.87] Converting :
+SELECT * FROM wp_posts WHERE ID = 5 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 5 LIMIT 1
+---------------------
+[1355774292.87] Converting :
+SELECT COUNT(*) AS cnt FROM `wp_posts` WHERE ( (post_status = 'publish' AND (post_type = 'post' OR post_type = ''))  OR  (post_status = 'publish' AND post_type = 'page') )  AND post_password='' ORDER BY post_modified DESC
+---- to ----
+SELECT COUNT(*) AS cnt FROM wp_posts WHERE ( (post_status = 'publish' AND (post_type = 'post' OR post_type = ''))  OR  (post_status = 'publish' AND post_type = 'page') )  AND post_password='' 
+---------------------
+[1355774316.13] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('wp-admin','edit-php') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('wp-admin','edit-php') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355774316.18] Converting :
+SELECT DISTINCT YEAR( post_date ) AS year, MONTH( post_date ) AS month
+			FROM wp_posts
+			WHERE post_type = 'page'
+			ORDER BY post_date DESC
+---- to ----
+SELECT DISTINCT EXTRACT(YEAR FROM  post_date ) AS year, EXTRACT(MONTH FROM  post_date ) AS month
+			FROM wp_posts
+			WHERE post_type = 'page'
+			ORDER BY EXTRACT(YEAR FROM post_date) DESC, EXTRACT(MONTH FROM post_date) DESC
+---------------------
+[1355774316.23] Converting :
+SELECT * FROM wp_posts WHERE ID = 2009 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 2009 LIMIT 1
+---------------------
+[1355774316.23] Converting :
+SELECT * FROM wp_posts WHERE ID = 2009 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 2009 LIMIT 1
+---------------------
+[1355774316.23] Converting :
+SELECT * FROM wp_posts WHERE ID = 2009 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 2009 LIMIT 1
+---------------------
+[1355774316.24] Converting :
+SELECT wp_users.ID,wp_users.display_name FROM wp_users INNER JOIN wp_usermeta ON (wp_users.ID = wp_usermeta.user_id) WHERE 1=1 AND ( (wp_usermeta.meta_key = 'wp_user_level' AND CAST(wp_usermeta.meta_value AS CHAR) != '0') ) ORDER BY display_name ASC
+---- to ----
+SELECT wp_users."ID" ,wp_users.display_name FROM wp_users INNER JOIN wp_usermeta ON (wp_users."ID" = wp_usermeta.user_id) WHERE 1=1 AND ( (wp_usermeta.meta_key = 'wp_user_level' AND CAST(wp_usermeta.meta_value AS TEXT) != '0') ) ORDER BY display_name ASC
+---------------------
+[1355774316.25] Converting :
+SELECT wp_users.ID,wp_users.display_name FROM wp_users INNER JOIN wp_usermeta ON (wp_users.ID = wp_usermeta.user_id) WHERE 1=1 AND ( (wp_usermeta.meta_key = 'wp_user_level' AND CAST(wp_usermeta.meta_value AS CHAR) != '0') ) ORDER BY display_name ASC
+---- to ----
+SELECT wp_users."ID" ,wp_users.display_name FROM wp_users INNER JOIN wp_usermeta ON (wp_users."ID" = wp_usermeta.user_id) WHERE 1=1 AND ( (wp_usermeta.meta_key = 'wp_user_level' AND CAST(wp_usermeta.meta_value AS TEXT) != '0') ) ORDER BY display_name ASC
+---------------------
+[1355775160.32] Converting :
+SELECT * FROM wp_posts WHERE ID = 252 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 252 LIMIT 1
+---------------------
+[1355775160.32] Converting :
+SELECT * FROM wp_posts WHERE ID = 252 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 252 LIMIT 1
+---------------------
+[1355775160.46] Converting :
+SELECT meta_key
+		FROM wp_postmeta
+		GROUP BY meta_key
+		HAVING meta_key NOT LIKE '\_%'
+		ORDER BY meta_key
+		LIMIT 30
+---- to ----
+SELECT meta_key
+		FROM wp_postmeta
+		GROUP BY meta_key
+		HAVING meta_key NOT ILIKE '\_%'
+		ORDER BY meta_key
+		LIMIT 30
+---------------------
+[1355775160.46] Converting :
+SELECT wp_users.ID,wp_users.display_name FROM wp_users INNER JOIN wp_usermeta ON (wp_users.ID = wp_usermeta.user_id) WHERE 1=1 AND ( (wp_usermeta.meta_key = 'wp_user_level' AND CAST(wp_usermeta.meta_value AS CHAR) != '0') ) ORDER BY display_name ASC
+---- to ----
+SELECT wp_users."ID" ,wp_users.display_name FROM wp_users INNER JOIN wp_usermeta ON (wp_users."ID" = wp_usermeta.user_id) WHERE 1=1 AND ( (wp_usermeta.meta_key = 'wp_user_level' AND CAST(wp_usermeta.meta_value AS TEXT) != '0') ) ORDER BY display_name ASC
+---------------------
+[1355775193.53] Converting :
+SELECT ID FROM wp_posts WHERE post_status = 'auto-draft' AND DATE_SUB( NOW(), INTERVAL 7 DAY ) > post_date
+---- to ----
+SELECT "ID" FROM wp_posts WHERE post_status = 'auto-draft' AND ( NOW()::timestamp -  '7 DAY'::interval ) > post_date
+---------------------
+[1355775193.53] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('index-png') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('index-png') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355775193.53] Converting :
+SELECT * FROM wp_posts WHERE ID = 3
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 3
+---------------------
+[1355775193.53] Converting :
+SELECT * FROM wp_posts WHERE ID = 3 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 3 LIMIT 1
+---------------------
+[1355775193.54] Converting :
+SELECT post_id FROM wp_postmeta, wp_posts WHERE ID = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'index-png'
+---- to ----
+SELECT post_id FROM wp_postmeta, wp_posts WHERE "ID" = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'index-png'
+---------------------
+[1355775193.54] Converting :
+SELECT ID FROM wp_posts WHERE post_name LIKE 'index-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---- to ----
+SELECT "ID" FROM wp_posts WHERE post_name ILIKE 'index-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---------------------
+[1355775193.54] Converting :
+SELECT ID FROM wp_posts WHERE post_parent = 3 AND post_type = 'revision'
+---- to ----
+SELECT "ID" FROM wp_posts WHERE post_parent = 3 AND post_type = 'revision'
+---------------------
+[1355775193.54] Converting :
+SELECT comment_ID FROM wp_comments WHERE comment_post_ID = 3
+---- to ----
+SELECT "comment_ID" FROM wp_comments WHERE "comment_post_ID" = 3
+---------------------
+[1355775193.55] Converting :
+SELECT   wp_posts.* FROM wp_posts  INNER JOIN wp_postmeta ON (wp_posts.ID = wp_postmeta.post_id) WHERE 1=1  AND wp_posts.post_type = 'nav_menu_item' AND (wp_posts.post_status <> 'trash' AND wp_posts.post_status <> 'auto-draft') AND ( (wp_postmeta.meta_key = '_menu_item_object_id' AND CAST(wp_postmeta.meta_value AS CHAR) = '3') ) GROUP BY wp_posts.ID ORDER BY wp_posts.post_date DESC
+---- to ----
+SELECT   wp_posts.* FROM wp_posts  INNER JOIN wp_postmeta ON (wp_posts."ID" = wp_postmeta.post_id) WHERE 1=1  AND wp_posts.post_type = 'nav_menu_item' AND (wp_posts.post_status <> 'trash' AND wp_posts.post_status <> 'auto-draft') AND ( (wp_postmeta.meta_key = '_menu_item_object_id' AND CAST(wp_postmeta.meta_value AS TEXT) = '3') )  ORDER BY wp_posts.post_date DESC
+---------------------
+[1355775193.64] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('wp-admin','mainbg-png') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('wp-admin','mainbg-png') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355775193.64] Converting :
+SELECT post_id FROM wp_postmeta, wp_posts WHERE ID = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'mainbg-png'
+---- to ----
+SELECT post_id FROM wp_postmeta, wp_posts WHERE "ID" = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'mainbg-png'
+---------------------
+[1355775193.65] Converting :
+SELECT ID FROM wp_posts WHERE post_name LIKE 'mainbg-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---- to ----
+SELECT "ID" FROM wp_posts WHERE post_name ILIKE 'mainbg-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---------------------
+[1355775209.58] Converting :
+SELECT `comment_post_ID` as `post_id`, COUNT(comment_ID) as `comment_count` FROM `wp_comments` WHERE `comment_approved`='1' GROUP BY `comment_post_ID`
+---- to ----
+SELECT "comment_post_ID" as post_id, COUNT("comment_ID" ) as comment_count FROM wp_comments WHERE comment_approved='1' GROUP BY "comment_post_ID" 
+---------------------
+[1355775209.59] Converting :
+SELECT * FROM wp_posts WHERE ID = 5 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 5 LIMIT 1
+---------------------
+[1355775209.59] Converting :
+SELECT COUNT(*) AS cnt FROM `wp_posts` WHERE ( (post_status = 'publish' AND (post_type = 'post' OR post_type = ''))  OR  (post_status = 'publish' AND post_type = 'page') )  AND post_password='' ORDER BY post_modified DESC
+---- to ----
+SELECT COUNT(*) AS cnt FROM wp_posts WHERE ( (post_status = 'publish' AND (post_type = 'post' OR post_type = ''))  OR  (post_status = 'publish' AND post_type = 'page') )  AND post_password='' 
+---------------------
+[1355775209.64] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('index-png') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('index-png') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355775209.64] Converting :
+SELECT post_id FROM wp_postmeta, wp_posts WHERE ID = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'index-png'
+---- to ----
+SELECT post_id FROM wp_postmeta, wp_posts WHERE "ID" = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'index-png'
+---------------------
+[1355775209.64] Converting :
+SELECT ID FROM wp_posts WHERE post_name LIKE 'index-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---- to ----
+SELECT "ID" FROM wp_posts WHERE post_name ILIKE 'index-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---------------------
+[1355775212.14] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('index-png') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('index-png') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355775212.15] Converting :
+SELECT post_id FROM wp_postmeta, wp_posts WHERE ID = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'index-png'
+---- to ----
+SELECT post_id FROM wp_postmeta, wp_posts WHERE "ID" = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'index-png'
+---------------------
+[1355775212.15] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('wp-admin','mainbg-png') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('wp-admin','mainbg-png') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355775212.15] Converting :
+SELECT ID FROM wp_posts WHERE post_name LIKE 'index-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---- to ----
+SELECT "ID" FROM wp_posts WHERE post_name ILIKE 'index-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---------------------
+[1355775212.16] Converting :
+SELECT post_id FROM wp_postmeta, wp_posts WHERE ID = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'mainbg-png'
+---- to ----
+SELECT post_id FROM wp_postmeta, wp_posts WHERE "ID" = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'mainbg-png'
+---------------------
+[1355775212.16] Converting :
+SELECT ID FROM wp_posts WHERE post_name LIKE 'mainbg-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---- to ----
+SELECT "ID" FROM wp_posts WHERE post_name ILIKE 'mainbg-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---------------------
+[1355775221.19] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('index-png') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('index-png') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355775221.2] Converting :
+SELECT post_id FROM wp_postmeta, wp_posts WHERE ID = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'index-png'
+---- to ----
+SELECT post_id FROM wp_postmeta, wp_posts WHERE "ID" = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'index-png'
+---------------------
+[1355775221.2] Converting :
+SELECT ID FROM wp_posts WHERE post_name LIKE 'index-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---- to ----
+SELECT "ID" FROM wp_posts WHERE post_name ILIKE 'index-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---------------------
+[1355775221.22] Converting :
+SELECT * FROM wp_posts WHERE ID = 252 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 252 LIMIT 1
+---------------------
+[1355775221.24] Converting :
+SELECT * FROM wp_posts WHERE ID = 252 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 252 LIMIT 1
+---------------------
+[1355775221.69] Converting :
+SELECT * FROM wp_posts WHERE ID = 252 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 252 LIMIT 1
+---------------------
+[1355775221.7] Converting :
+SELECT post_name FROM wp_posts WHERE post_name = '252' AND post_type IN ( 'page' ) AND ID != 252 AND post_parent = 0 LIMIT 1
+---- to ----
+SELECT post_name FROM wp_posts WHERE post_name = '252' AND post_type IN ( 'page' ) AND "ID" != 252 AND post_parent = 0 LIMIT 1
+---------------------
+[1355775221.7] Converting :
+SELECT post_name FROM wp_posts WHERE post_name = '252-2' AND post_type IN ( 'page' ) AND ID != 252 AND post_parent = 0 LIMIT 1
+---- to ----
+SELECT post_name FROM wp_posts WHERE post_name = '252-2' AND post_type IN ( 'page' ) AND "ID" != 252 AND post_parent = 0 LIMIT 1
+---------------------
+[1355775281.18] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('index-png') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('index-png') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355775281.18] Converting :
+SELECT post_id FROM wp_postmeta, wp_posts WHERE ID = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'index-png'
+---- to ----
+SELECT post_id FROM wp_postmeta, wp_posts WHERE "ID" = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'index-png'
+---------------------
+[1355775281.18] Converting :
+SELECT ID FROM wp_posts WHERE post_name LIKE 'index-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---- to ----
+SELECT "ID" FROM wp_posts WHERE post_name ILIKE 'index-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---------------------
+[1355775281.26] Converting :
+SELECT * FROM wp_posts WHERE ID = 252 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 252 LIMIT 1
+---------------------
+[1355775281.28] Converting :
+SELECT * FROM wp_posts WHERE ID = 252 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 252 LIMIT 1
+---------------------
+[1355775341.18] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('index-png') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('index-png') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355775341.18] Converting :
+SELECT post_id FROM wp_postmeta, wp_posts WHERE ID = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'index-png'
+---- to ----
+SELECT post_id FROM wp_postmeta, wp_posts WHERE "ID" = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'index-png'
+---------------------
+[1355775341.2] Converting :
+SELECT ID FROM wp_posts WHERE post_name LIKE 'index-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---- to ----
+SELECT "ID" FROM wp_posts WHERE post_name ILIKE 'index-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---------------------
+[1355775341.24] Converting :
+SELECT * FROM wp_posts WHERE ID = 252 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 252 LIMIT 1
+---------------------
+[1355775345] Converting :
+SELECT * FROM wp_posts WHERE ID = 252 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 252 LIMIT 1
+---------------------
+[1355775345.02] Converting :
+SELECT post_name FROM wp_posts WHERE post_name = 'guinean-dancer-fadima-konate-african-dance-and-tradition' AND post_type IN ( 'page' ) AND ID != 252 AND post_parent = 0 LIMIT 1
+---- to ----
+SELECT post_name FROM wp_posts WHERE post_name = 'guinean-dancer-fadima-konate-african-dance-and-tradition' AND post_type IN ( 'page' ) AND "ID" != 252 AND post_parent = 0 LIMIT 1
+---------------------
+[1355775345.02] Converting :
+SELECT post_name FROM wp_posts WHERE post_name = '252-revision' AND post_type = 'revision' AND ID != 0 LIMIT 1
+---- to ----
+SELECT post_name FROM wp_posts WHERE post_name = '252-revision' AND post_type = 'revision' AND "ID" != 0 LIMIT 1
+---------------------
+[1355775345.02] Converting :
+SELECT * FROM wp_posts WHERE ID = 253 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 253 LIMIT 1
+---------------------
+[1355775345.03] Converting :
+SELECT * FROM wp_posts WHERE ID = 253 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 253 LIMIT 1
+---------------------
+[1355775345.04] Converting :
+SELECT * FROM wp_posts WHERE ID = 252 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 252 LIMIT 1
+---------------------
+[1355775345.47] Converting :
+SELECT * FROM wp_posts WHERE ID = 252 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 252 LIMIT 1
+---------------------
+[1355775345.55] Converting :
+SELECT post_name FROM wp_posts WHERE post_name = 'guinean-dancer-fadima-konate-african-dance-and-tradition' AND post_type IN ( 'page' ) AND ID != 252 AND post_parent = 0 LIMIT 1
+---- to ----
+SELECT post_name FROM wp_posts WHERE post_name = 'guinean-dancer-fadima-konate-african-dance-and-tradition' AND post_type IN ( 'page' ) AND "ID" != 252 AND post_parent = 0 LIMIT 1
+---------------------
+[1355775345.58] Converting :
+SELECT meta_key
+		FROM wp_postmeta
+		GROUP BY meta_key
+		HAVING meta_key NOT LIKE '\_%'
+		ORDER BY meta_key
+		LIMIT 30
+---- to ----
+SELECT meta_key
+		FROM wp_postmeta
+		GROUP BY meta_key
+		HAVING meta_key NOT ILIKE '\_%'
+		ORDER BY meta_key
+		LIMIT 30
+---------------------
+[1355775345.59] Converting :
+SELECT COUNT(*) FROM wp_comments  WHERE ( comment_approved = '0' OR comment_approved = '1' ) AND comment_post_ID = 252  ORDER BY comment_date_gmt DESC LIMIT 1
+---- to ----
+SELECT COUNT(*) FROM wp_comments  WHERE ( comment_approved = '0' OR comment_approved = '1' ) AND "comment_post_ID" = 252  
+---------------------
+[1355775345.6] Converting :
+SELECT wp_users.ID,wp_users.display_name FROM wp_users INNER JOIN wp_usermeta ON (wp_users.ID = wp_usermeta.user_id) WHERE 1=1 AND ( (wp_usermeta.meta_key = 'wp_user_level' AND CAST(wp_usermeta.meta_value AS CHAR) != '0') ) ORDER BY display_name ASC
+---- to ----
+SELECT wp_users."ID" ,wp_users.display_name FROM wp_users INNER JOIN wp_usermeta ON (wp_users."ID" = wp_usermeta.user_id) WHERE 1=1 AND ( (wp_usermeta.meta_key = 'wp_user_level' AND CAST(wp_usermeta.meta_value AS TEXT) != '0') ) ORDER BY display_name ASC
+---------------------
+[1355775346.8] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('index-png') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('index-png') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355775346.81] Converting :
+SELECT post_id FROM wp_postmeta, wp_posts WHERE ID = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'index-png'
+---- to ----
+SELECT post_id FROM wp_postmeta, wp_posts WHERE "ID" = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'index-png'
+---------------------
+[1355775346.81] Converting :
+SELECT ID FROM wp_posts WHERE post_name LIKE 'index-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---- to ----
+SELECT "ID" FROM wp_posts WHERE post_name ILIKE 'index-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---------------------
+[1355775346.81] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('wp-admin','mainbg-png') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('wp-admin','mainbg-png') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355775346.82] Converting :
+SELECT post_id FROM wp_postmeta, wp_posts WHERE ID = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'mainbg-png'
+---- to ----
+SELECT post_id FROM wp_postmeta, wp_posts WHERE "ID" = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'mainbg-png'
+---------------------
+[1355775346.82] Converting :
+SELECT ID FROM wp_posts WHERE post_name LIKE 'mainbg-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---- to ----
+SELECT "ID" FROM wp_posts WHERE post_name ILIKE 'mainbg-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---------------------
+[1355775363.71] Converting :
+SELECT `comment_post_ID` as `post_id`, COUNT(comment_ID) as `comment_count` FROM `wp_comments` WHERE `comment_approved`='1' GROUP BY `comment_post_ID`
+---- to ----
+SELECT "comment_post_ID" as post_id, COUNT("comment_ID" ) as comment_count FROM wp_comments WHERE comment_approved='1' GROUP BY "comment_post_ID" 
+---------------------
+[1355775363.71] Converting :
+SELECT * FROM wp_posts WHERE ID = 5 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 5 LIMIT 1
+---------------------
+[1355775363.71] Converting :
+SELECT COUNT(*) AS cnt FROM `wp_posts` WHERE ( (post_status = 'publish' AND (post_type = 'post' OR post_type = ''))  OR  (post_status = 'publish' AND post_type = 'page') )  AND post_password='' ORDER BY post_modified DESC
+---- to ----
+SELECT COUNT(*) AS cnt FROM wp_posts WHERE ( (post_status = 'publish' AND (post_type = 'post' OR post_type = ''))  OR  (post_status = 'publish' AND post_type = 'page') )  AND post_password='' 
+---------------------
+[1355775363.75] Converting :
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.ID = 5 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---- to ----
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts."ID" = 5 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---------------------
+[1355775363.77] Converting :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-10-25 00:04:11' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+---- to ----
+SELECT "ID" FROM wp_posts AS p  WHERE p.post_date < '2009-10-25 00:04:11' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+---------------------
+[1355775363.78] Converting :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-10-25 00:04:11' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+---- to ----
+SELECT "ID" FROM wp_posts AS p  WHERE p.post_date > '2009-10-25 00:04:11' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+---------------------
+[1355775363.78] Converting :
+SELECT * FROM wp_posts WHERE ID = 7 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 7 LIMIT 1
+---------------------
+[1355775363.78] Converting :
+SELECT * FROM wp_users WHERE ID = '1'
+---- to ----
+SELECT * FROM wp_users WHERE "ID" = '1'
+---------------------
+[1355775364.54] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('workshops') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('workshops') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355775364.54] Converting :
+SELECT * FROM wp_posts WHERE ID = 7 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 7 LIMIT 1
+---------------------
+[1355775364.55] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('workshops') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('workshops') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355775364.55] Converting :
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND (wp_posts.ID = '7') AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---- to ----
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND (wp_posts."ID" = '7') AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---------------------
+[1355775364.82] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('workshops') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('workshops') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355775364.82] Converting :
+SELECT * FROM wp_posts WHERE ID = 7 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 7 LIMIT 1
+---------------------
+[1355775364.82] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('workshops') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('workshops') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355775364.83] Converting :
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND (wp_posts.ID = '7') AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---- to ----
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND (wp_posts."ID" = '7') AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---------------------
+[1355775364.84] Converting :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-10-25 00:43:23' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+---- to ----
+SELECT "ID" FROM wp_posts AS p  WHERE p.post_date < '2009-10-25 00:43:23' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+---------------------
+[1355775364.84] Converting :
+SELECT * FROM wp_posts WHERE ID = 5 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 5 LIMIT 1
+---------------------
+[1355775364.84] Converting :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-10-25 00:43:23' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+---- to ----
+SELECT "ID" FROM wp_posts AS p  WHERE p.post_date > '2009-10-25 00:43:23' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+---------------------
+[1355775364.85] Converting :
+SELECT * FROM wp_posts WHERE ID = 37 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 37 LIMIT 1
+---------------------
+[1355775364.85] Converting :
+SELECT * FROM wp_users WHERE ID = '1'
+---- to ----
+SELECT * FROM wp_users WHERE "ID" = '1'
+---------------------
+[1355775383.46] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('wp-admin','edit-php') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('wp-admin','edit-php') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355775383.52] Converting :
+SELECT DISTINCT YEAR( post_date ) AS year, MONTH( post_date ) AS month
+			FROM wp_posts
+			WHERE post_type = 'page'
+			ORDER BY post_date DESC
+---- to ----
+SELECT DISTINCT EXTRACT(YEAR FROM  post_date ) AS year, EXTRACT(MONTH FROM  post_date ) AS month
+			FROM wp_posts
+			WHERE post_type = 'page'
+			ORDER BY EXTRACT(YEAR FROM post_date) DESC, EXTRACT(MONTH FROM post_date) DESC
+---------------------
+[1355775383.57] Converting :
+SELECT * FROM wp_posts WHERE ID = 2009 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 2009 LIMIT 1
+---------------------
+[1355775383.58] Converting :
+SELECT * FROM wp_posts WHERE ID = 2009 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 2009 LIMIT 1
+---------------------
+[1355775383.58] Converting :
+SELECT * FROM wp_posts WHERE ID = 2009 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 2009 LIMIT 1
+---------------------
+[1355775383.58] Converting :
+SELECT wp_users.ID,wp_users.display_name FROM wp_users INNER JOIN wp_usermeta ON (wp_users.ID = wp_usermeta.user_id) WHERE 1=1 AND ( (wp_usermeta.meta_key = 'wp_user_level' AND CAST(wp_usermeta.meta_value AS CHAR) != '0') ) ORDER BY display_name ASC
+---- to ----
+SELECT wp_users."ID" ,wp_users.display_name FROM wp_users INNER JOIN wp_usermeta ON (wp_users."ID" = wp_usermeta.user_id) WHERE 1=1 AND ( (wp_usermeta.meta_key = 'wp_user_level' AND CAST(wp_usermeta.meta_value AS TEXT) != '0') ) ORDER BY display_name ASC
+---------------------
+[1355775383.6] Converting :
+SELECT wp_users.ID,wp_users.display_name FROM wp_users INNER JOIN wp_usermeta ON (wp_users.ID = wp_usermeta.user_id) WHERE 1=1 AND ( (wp_usermeta.meta_key = 'wp_user_level' AND CAST(wp_usermeta.meta_value AS CHAR) != '0') ) ORDER BY display_name ASC
+---- to ----
+SELECT wp_users."ID" ,wp_users.display_name FROM wp_users INNER JOIN wp_usermeta ON (wp_users."ID" = wp_usermeta.user_id) WHERE 1=1 AND ( (wp_usermeta.meta_key = 'wp_user_level' AND CAST(wp_usermeta.meta_value AS TEXT) != '0') ) ORDER BY display_name ASC
+---------------------
+[1355775388.71] Converting :
+SELECT ID FROM wp_posts AS p LEFT JOIN wp_postmeta AS m ON p.ID = m.post_id WHERE post_type = 'nav_menu_item' AND post_status = 'draft' AND meta_key = '_menu_item_orphaned' AND meta_value < '1353183388'
+---- to ----
+SELECT "ID" FROM wp_posts AS p LEFT JOIN wp_postmeta AS m ON p."ID" = m.post_id WHERE post_type = 'nav_menu_item' AND post_status = 'draft' AND meta_key = '_menu_item_orphaned' AND meta_value < '1353183388'
+---------------------
+[1355775388.75] Converting :
+SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.post_type = 'post' AND (wp_posts.post_status = 'publish')  ORDER BY wp_posts.post_title ASC LIMIT 0, 50
+---- to ----
+SELECT   wp_posts."ID" FROM wp_posts  WHERE 1=1  AND wp_posts.post_type = 'post' AND (wp_posts.post_status = 'publish')  ORDER BY wp_posts.post_title ASC LIMIT 50 OFFSET 0
+---------------------
+[1355775388.75] Converting :
+SELECT FOUND_ROWS()
+---- to ----
+SELECT COUNT(wp_posts."ID" ) FROM wp_posts  WHERE 1=1  AND wp_posts.post_type = 'post' AND (wp_posts.post_status = 'publish')  
+---------------------
+[1355775388.75] Converting :
+SELECT wp_posts.* FROM wp_posts WHERE ID IN (1)
+---- to ----
+SELECT wp_posts.* FROM wp_posts WHERE "ID" IN (1)
+---------------------
+[1355775388.75] Converting :
+SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.post_type = 'post' AND (wp_posts.post_status = 'publish')  ORDER BY wp_posts.post_date DESC LIMIT 0, 15
+---- to ----
+SELECT   wp_posts."ID" FROM wp_posts  WHERE 1=1  AND wp_posts.post_type = 'post' AND (wp_posts.post_status = 'publish')  ORDER BY wp_posts.post_date DESC LIMIT 15 OFFSET 0
+---------------------
+[1355775388.75] Converting :
+SELECT FOUND_ROWS()
+---- to ----
+SELECT COUNT(wp_posts."ID" ) FROM wp_posts  WHERE 1=1  AND wp_posts.post_type = 'post' AND (wp_posts.post_status = 'publish')  
+---------------------
+[1355775388.76] Converting :
+SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.post_type = 'page' AND (wp_posts.post_status = 'publish')  ORDER BY wp_posts.menu_order,wp_posts.post_title ASC LIMIT 0, 50
+---- to ----
+SELECT   wp_posts."ID" FROM wp_posts  WHERE 1=1  AND wp_posts.post_type = 'page' AND (wp_posts.post_status = 'publish')  ORDER BY wp_posts.menu_order,wp_posts.post_title ASC LIMIT 50 OFFSET 0
+---------------------
+[1355775388.76] Converting :
+SELECT FOUND_ROWS()
+---- to ----
+SELECT COUNT(wp_posts."ID" ) FROM wp_posts  WHERE 1=1  AND wp_posts.post_type = 'page' AND (wp_posts.post_status = 'publish')  
+---------------------
+[1355775388.76] Converting :
+SELECT wp_posts.* FROM wp_posts WHERE ID IN (133,5,252,132,146,7,37,41)
+---- to ----
+SELECT wp_posts.* FROM wp_posts WHERE "ID" IN (133,5,252,132,146,7,37,41)
+---------------------
+[1355775388.77] Converting :
+SELECT SQL_CALC_FOUND_ROWS  wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.post_type = 'page' AND (wp_posts.post_status = 'publish')  ORDER BY wp_posts.post_date DESC LIMIT 0, 15
+---- to ----
+SELECT   wp_posts."ID" FROM wp_posts  WHERE 1=1  AND wp_posts.post_type = 'page' AND (wp_posts.post_status = 'publish')  ORDER BY wp_posts.post_date DESC LIMIT 15 OFFSET 0
+---------------------
+[1355775388.77] Converting :
+SELECT FOUND_ROWS()
+---- to ----
+SELECT COUNT(wp_posts."ID" ) FROM wp_posts  WHERE 1=1  AND wp_posts.post_type = 'page' AND (wp_posts.post_status = 'publish')  
+---------------------
+[1355775388.78] Converting :
+SELECT * FROM wp_posts WHERE ID = 2009 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 2009 LIMIT 1
+---------------------
+[1355775388.78] Converting :
+SELECT * FROM wp_posts WHERE ID = 2009 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 2009 LIMIT 1
+---------------------
+[1355775388.8] Converting :
+SELECT * FROM wp_posts WHERE ID = 2009 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 2009 LIMIT 1
+---------------------
+[1355775388.8] Converting :
+SELECT * FROM wp_posts WHERE ID = 2009 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 2009 LIMIT 1
+---------------------
+[1355775406.27] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('index-png') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('index-png') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355775406.28] Converting :
+SELECT post_id FROM wp_postmeta, wp_posts WHERE ID = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'index-png'
+---- to ----
+SELECT post_id FROM wp_postmeta, wp_posts WHERE "ID" = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'index-png'
+---------------------
+[1355775406.28] Converting :
+SELECT ID FROM wp_posts WHERE post_name LIKE 'index-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---- to ----
+SELECT "ID" FROM wp_posts WHERE post_name ILIKE 'index-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---------------------
+[1355775406.31] Converting :
+SELECT * FROM wp_posts WHERE ID = 252 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 252 LIMIT 1
+---------------------
+[1355775406.32] Converting :
+SELECT post_name FROM wp_posts WHERE post_name = '252-autosave' AND post_type = 'revision' AND ID != 0 LIMIT 1
+---- to ----
+SELECT post_name FROM wp_posts WHERE post_name = '252-autosave' AND post_type = 'revision' AND "ID" != 0 LIMIT 1
+---------------------
+[1355775406.32] Converting :
+SELECT * FROM wp_posts WHERE ID = 254 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 254 LIMIT 1
+---------------------
+[1355775406.33] Converting :
+SELECT * FROM wp_posts WHERE ID = 254 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 254 LIMIT 1
+---------------------
+[1355775426.59] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('wp-admin','edit-php') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('wp-admin','edit-php') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355775426.64] Converting :
+SELECT DISTINCT YEAR( post_date ) AS year, MONTH( post_date ) AS month
+			FROM wp_posts
+			WHERE post_type = 'page'
+			ORDER BY post_date DESC
+---- to ----
+SELECT DISTINCT EXTRACT(YEAR FROM  post_date ) AS year, EXTRACT(MONTH FROM  post_date ) AS month
+			FROM wp_posts
+			WHERE post_type = 'page'
+			ORDER BY EXTRACT(YEAR FROM post_date) DESC, EXTRACT(MONTH FROM post_date) DESC
+---------------------
+[1355775426.7] Converting :
+SELECT * FROM wp_posts WHERE ID = 2009 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 2009 LIMIT 1
+---------------------
+[1355775426.7] Converting :
+SELECT * FROM wp_posts WHERE ID = 2009 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 2009 LIMIT 1
+---------------------
+[1355775426.7] Converting :
+SELECT * FROM wp_posts WHERE ID = 2009 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 2009 LIMIT 1
+---------------------
+[1355775426.71] Converting :
+SELECT wp_users.ID,wp_users.display_name FROM wp_users INNER JOIN wp_usermeta ON (wp_users.ID = wp_usermeta.user_id) WHERE 1=1 AND ( (wp_usermeta.meta_key = 'wp_user_level' AND CAST(wp_usermeta.meta_value AS CHAR) != '0') ) ORDER BY display_name ASC
+---- to ----
+SELECT wp_users."ID" ,wp_users.display_name FROM wp_users INNER JOIN wp_usermeta ON (wp_users."ID" = wp_usermeta.user_id) WHERE 1=1 AND ( (wp_usermeta.meta_key = 'wp_user_level' AND CAST(wp_usermeta.meta_value AS TEXT) != '0') ) ORDER BY display_name ASC
+---------------------
+[1355775426.72] Converting :
+SELECT wp_users.ID,wp_users.display_name FROM wp_users INNER JOIN wp_usermeta ON (wp_users.ID = wp_usermeta.user_id) WHERE 1=1 AND ( (wp_usermeta.meta_key = 'wp_user_level' AND CAST(wp_usermeta.meta_value AS CHAR) != '0') ) ORDER BY display_name ASC
+---- to ----
+SELECT wp_users."ID" ,wp_users.display_name FROM wp_users INNER JOIN wp_usermeta ON (wp_users."ID" = wp_usermeta.user_id) WHERE 1=1 AND ( (wp_usermeta.meta_key = 'wp_user_level' AND CAST(wp_usermeta.meta_value AS TEXT) != '0') ) ORDER BY display_name ASC
+---------------------
+[1355775435.31] Converting :
+SELECT * FROM wp_posts WHERE ID = 252 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 252 LIMIT 1
+---------------------
+[1355775435.39] Converting :
+SELECT post_name FROM wp_posts WHERE post_name = 'guinean-dancer-fadima-konate-african-dance-and-tradition' AND post_type IN ( 'page' ) AND ID != 252 AND post_parent = 0 LIMIT 1
+---- to ----
+SELECT post_name FROM wp_posts WHERE post_name = 'guinean-dancer-fadima-konate-african-dance-and-tradition' AND post_type IN ( 'page' ) AND "ID" != 252 AND post_parent = 0 LIMIT 1
+---------------------
+[1355775435.42] Converting :
+SELECT meta_key
+		FROM wp_postmeta
+		GROUP BY meta_key
+		HAVING meta_key NOT LIKE '\_%'
+		ORDER BY meta_key
+		LIMIT 30
+---- to ----
+SELECT meta_key
+		FROM wp_postmeta
+		GROUP BY meta_key
+		HAVING meta_key NOT ILIKE '\_%'
+		ORDER BY meta_key
+		LIMIT 30
+---------------------
+[1355775435.43] Converting :
+SELECT COUNT(*) FROM wp_comments  WHERE ( comment_approved = '0' OR comment_approved = '1' ) AND comment_post_ID = 252  ORDER BY comment_date_gmt DESC LIMIT 1
+---- to ----
+SELECT COUNT(*) FROM wp_comments  WHERE ( comment_approved = '0' OR comment_approved = '1' ) AND "comment_post_ID" = 252  
+---------------------
+[1355775435.43] Converting :
+SELECT wp_users.ID,wp_users.display_name FROM wp_users INNER JOIN wp_usermeta ON (wp_users.ID = wp_usermeta.user_id) WHERE 1=1 AND ( (wp_usermeta.meta_key = 'wp_user_level' AND CAST(wp_usermeta.meta_value AS CHAR) != '0') ) ORDER BY display_name ASC
+---- to ----
+SELECT wp_users."ID" ,wp_users.display_name FROM wp_users INNER JOIN wp_usermeta ON (wp_users."ID" = wp_usermeta.user_id) WHERE 1=1 AND ( (wp_usermeta.meta_key = 'wp_user_level' AND CAST(wp_usermeta.meta_value AS TEXT) != '0') ) ORDER BY display_name ASC
+---------------------
+[1355775436.29] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('wp-admin','mainbg-png') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('wp-admin','mainbg-png') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355775436.29] Converting :
+SELECT post_id FROM wp_postmeta, wp_posts WHERE ID = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'mainbg-png'
+---- to ----
+SELECT post_id FROM wp_postmeta, wp_posts WHERE "ID" = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'mainbg-png'
+---------------------
+[1355775436.3] Converting :
+SELECT ID FROM wp_posts WHERE post_name LIKE 'mainbg-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---- to ----
+SELECT "ID" FROM wp_posts WHERE post_name ILIKE 'mainbg-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---------------------
+[1355775436.3] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('index-png') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('index-png') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355775436.31] Converting :
+SELECT post_id FROM wp_postmeta, wp_posts WHERE ID = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'index-png'
+---- to ----
+SELECT post_id FROM wp_postmeta, wp_posts WHERE "ID" = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'index-png'
+---------------------
+[1355775436.31] Converting :
+SELECT ID FROM wp_posts WHERE post_name LIKE 'index-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---- to ----
+SELECT "ID" FROM wp_posts WHERE post_name ILIKE 'index-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---------------------
+[1355775453.25] Converting :
+SELECT * FROM wp_posts WHERE ID = 252 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 252 LIMIT 1
+---------------------
+[1355775467.86] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('index-png') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('index-png') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355775467.87] Converting :
+SELECT post_id FROM wp_postmeta, wp_posts WHERE ID = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'index-png'
+---- to ----
+SELECT post_id FROM wp_postmeta, wp_posts WHERE "ID" = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'index-png'
+---------------------
+[1355775467.87] Converting :
+SELECT ID FROM wp_posts WHERE post_name LIKE 'index-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---- to ----
+SELECT "ID" FROM wp_posts WHERE post_name ILIKE 'index-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---------------------
+[1355775467.91] Converting :
+SELECT * FROM wp_posts WHERE ID = 252 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 252 LIMIT 1
+---------------------
+[1355775480.87] Converting :
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.ID = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---- to ----
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts."ID" = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---------------------
+[1355775480.88] Converting :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2012-12-17 20:12:40' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+---- to ----
+SELECT "ID" FROM wp_posts AS p  WHERE p.post_date < '2012-12-17 20:12:40' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+---------------------
+[1355775480.88] Converting :
+SELECT * FROM wp_posts WHERE ID = 146 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 146 LIMIT 1
+---------------------
+[1355775480.89] Converting :
+SELECT * FROM wp_posts WHERE ID = 2009 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 2009 LIMIT 1
+---------------------
+[1355775480.89] Converting :
+SELECT * FROM wp_posts WHERE ID = 2009 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 2009 LIMIT 1
+---------------------
+[1355775480.89] Converting :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2012-12-17 20:12:40' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+---- to ----
+SELECT "ID" FROM wp_posts AS p  WHERE p.post_date > '2012-12-17 20:12:40' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+---------------------
+[1355775480.89] Converting :
+SELECT * FROM wp_users WHERE ID = '1'
+---- to ----
+SELECT * FROM wp_users WHERE "ID" = '1'
+---------------------
+[1355775481.28] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('index-png') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('index-png') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355775481.28] Converting :
+SELECT post_id FROM wp_postmeta, wp_posts WHERE ID = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'index-png'
+---- to ----
+SELECT post_id FROM wp_postmeta, wp_posts WHERE "ID" = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'index-png'
+---------------------
+[1355775481.28] Converting :
+SELECT ID FROM wp_posts WHERE post_name LIKE 'index-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---- to ----
+SELECT "ID" FROM wp_posts WHERE post_name ILIKE 'index-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---------------------
+[1355775481.37] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('mainbg-png') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('mainbg-png') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355775481.37] Converting :
+SELECT post_id FROM wp_postmeta, wp_posts WHERE ID = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'mainbg-png'
+---- to ----
+SELECT post_id FROM wp_postmeta, wp_posts WHERE "ID" = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'mainbg-png'
+---------------------
+[1355775481.37] Converting :
+SELECT ID FROM wp_posts WHERE post_name LIKE 'mainbg-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---- to ----
+SELECT "ID" FROM wp_posts WHERE post_name ILIKE 'mainbg-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---------------------
+[1355775501.91] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('index-png') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('index-png') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355775501.91] Converting :
+SELECT post_id FROM wp_postmeta, wp_posts WHERE ID = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'index-png'
+---- to ----
+SELECT post_id FROM wp_postmeta, wp_posts WHERE "ID" = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'index-png'
+---------------------
+[1355775501.92] Converting :
+SELECT ID FROM wp_posts WHERE post_name LIKE 'index-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---- to ----
+SELECT "ID" FROM wp_posts WHERE post_name ILIKE 'index-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---------------------
+[1355775527.91] Converting :
+SELECT * FROM wp_posts WHERE ID = 252 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 252 LIMIT 1
+---------------------
+[1355775541.76] Converting :
+SELECT * FROM wp_posts WHERE ID = 252 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 252 LIMIT 1
+---------------------
+[1355775541.77] Converting :
+SELECT post_name FROM wp_posts WHERE post_name = 'guinean-dancer-fadima-konate-african-dance-and-tradition' AND post_type IN ( 'page' ) AND ID != 252 AND post_parent = 0 LIMIT 1
+---- to ----
+SELECT post_name FROM wp_posts WHERE post_name = 'guinean-dancer-fadima-konate-african-dance-and-tradition' AND post_type IN ( 'page' ) AND "ID" != 252 AND post_parent = 0 LIMIT 1
+---------------------
+[1355775541.77] Converting :
+SELECT post_name FROM wp_posts WHERE post_name = '252-revision' AND post_type = 'revision' AND ID != 0 LIMIT 1
+---- to ----
+SELECT post_name FROM wp_posts WHERE post_name = '252-revision' AND post_type = 'revision' AND "ID" != 0 LIMIT 1
+---------------------
+[1355775541.77] Converting :
+SELECT post_name FROM wp_posts WHERE post_name = '252-revision-2' AND post_type = 'revision' AND ID != 0 LIMIT 1
+---- to ----
+SELECT post_name FROM wp_posts WHERE post_name = '252-revision-2' AND post_type = 'revision' AND "ID" != 0 LIMIT 1
+---------------------
+[1355775541.78] Converting :
+SELECT * FROM wp_posts WHERE ID = 255 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 255 LIMIT 1
+---------------------
+[1355775541.78] Converting :
+SELECT * FROM wp_posts WHERE ID = 255 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 255 LIMIT 1
+---------------------
+[1355775541.8] Converting :
+SELECT * FROM wp_posts WHERE ID = 252 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 252 LIMIT 1
+---------------------
+[1355775542.27] Converting :
+SELECT * FROM wp_posts WHERE ID = 252 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 252 LIMIT 1
+---------------------
+[1355775542.35] Converting :
+SELECT post_name FROM wp_posts WHERE post_name = 'guinean-dancer-fadima-konate-african-dance-and-tradition' AND post_type IN ( 'page' ) AND ID != 252 AND post_parent = 0 LIMIT 1
+---- to ----
+SELECT post_name FROM wp_posts WHERE post_name = 'guinean-dancer-fadima-konate-african-dance-and-tradition' AND post_type IN ( 'page' ) AND "ID" != 252 AND post_parent = 0 LIMIT 1
+---------------------
+[1355775542.39] Converting :
+SELECT meta_key
+		FROM wp_postmeta
+		GROUP BY meta_key
+		HAVING meta_key NOT LIKE '\_%'
+		ORDER BY meta_key
+		LIMIT 30
+---- to ----
+SELECT meta_key
+		FROM wp_postmeta
+		GROUP BY meta_key
+		HAVING meta_key NOT ILIKE '\_%'
+		ORDER BY meta_key
+		LIMIT 30
+---------------------
+[1355775542.39] Converting :
+SELECT COUNT(*) FROM wp_comments  WHERE ( comment_approved = '0' OR comment_approved = '1' ) AND comment_post_ID = 252  ORDER BY comment_date_gmt DESC LIMIT 1
+---- to ----
+SELECT COUNT(*) FROM wp_comments  WHERE ( comment_approved = '0' OR comment_approved = '1' ) AND "comment_post_ID" = 252  
+---------------------
+[1355775542.4] Converting :
+SELECT wp_users.ID,wp_users.display_name FROM wp_users INNER JOIN wp_usermeta ON (wp_users.ID = wp_usermeta.user_id) WHERE 1=1 AND ( (wp_usermeta.meta_key = 'wp_user_level' AND CAST(wp_usermeta.meta_value AS CHAR) != '0') ) ORDER BY display_name ASC
+---- to ----
+SELECT wp_users."ID" ,wp_users.display_name FROM wp_users INNER JOIN wp_usermeta ON (wp_users."ID" = wp_usermeta.user_id) WHERE 1=1 AND ( (wp_usermeta.meta_key = 'wp_user_level' AND CAST(wp_usermeta.meta_value AS TEXT) != '0') ) ORDER BY display_name ASC
+---------------------
+[1355775544.51] Converting :
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.ID = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---- to ----
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts."ID" = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---------------------
+[1355775544.53] Converting :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2012-12-17 20:12:40' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+---- to ----
+SELECT "ID" FROM wp_posts AS p  WHERE p.post_date < '2012-12-17 20:12:40' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+---------------------
+[1355775544.53] Converting :
+SELECT * FROM wp_posts WHERE ID = 146 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 146 LIMIT 1
+---------------------
+[1355775544.53] Converting :
+SELECT * FROM wp_posts WHERE ID = 2009 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 2009 LIMIT 1
+---------------------
+[1355775544.53] Converting :
+SELECT * FROM wp_posts WHERE ID = 2009 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 2009 LIMIT 1
+---------------------
+[1355775544.53] Converting :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2012-12-17 20:12:40' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+---- to ----
+SELECT "ID" FROM wp_posts AS p  WHERE p.post_date > '2012-12-17 20:12:40' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+---------------------
+[1355775544.53] Converting :
+SELECT * FROM wp_users WHERE ID = '1'
+---- to ----
+SELECT * FROM wp_users WHERE "ID" = '1'
+---------------------
+[1355775544.91] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('index-png') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('index-png') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355775544.92] Converting :
+SELECT post_id FROM wp_postmeta, wp_posts WHERE ID = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'index-png'
+---- to ----
+SELECT post_id FROM wp_postmeta, wp_posts WHERE "ID" = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'index-png'
+---------------------
+[1355775544.92] Converting :
+SELECT ID FROM wp_posts WHERE post_name LIKE 'index-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---- to ----
+SELECT "ID" FROM wp_posts WHERE post_name ILIKE 'index-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---------------------
+[1355775544.99] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('mainbg-png') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('mainbg-png') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355775545] Converting :
+SELECT post_id FROM wp_postmeta, wp_posts WHERE ID = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'mainbg-png'
+---- to ----
+SELECT post_id FROM wp_postmeta, wp_posts WHERE "ID" = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'mainbg-png'
+---------------------
+[1355775545] Converting :
+SELECT ID FROM wp_posts WHERE post_name LIKE 'mainbg-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---- to ----
+SELECT "ID" FROM wp_posts WHERE post_name ILIKE 'mainbg-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---------------------
+[1355775578.05] Converting :
+SELECT `comment_post_ID` as `post_id`, COUNT(comment_ID) as `comment_count` FROM `wp_comments` WHERE `comment_approved`='1' GROUP BY `comment_post_ID`
+---- to ----
+SELECT "comment_post_ID" as post_id, COUNT("comment_ID" ) as comment_count FROM wp_comments WHERE comment_approved='1' GROUP BY "comment_post_ID" 
+---------------------
+[1355775578.06] Converting :
+SELECT * FROM wp_posts WHERE ID = 252 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 252 LIMIT 1
+---------------------
+[1355775578.06] Converting :
+SELECT COUNT(*) AS cnt FROM `wp_posts` WHERE ( (post_status = 'publish' AND (post_type = 'post' OR post_type = ''))  OR  (post_status = 'publish' AND post_type = 'page') )  AND post_password='' ORDER BY post_modified DESC
+---- to ----
+SELECT COUNT(*) AS cnt FROM wp_posts WHERE ( (post_status = 'publish' AND (post_type = 'post' OR post_type = ''))  OR  (post_status = 'publish' AND post_type = 'page') )  AND post_password='' 
+---------------------
+[1355775578.17] Converting :
+SELECT * FROM wp_posts WHERE ID = 252 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 252 LIMIT 1
+---------------------
+[1355775578.19] Converting :
+SELECT post_name FROM wp_posts WHERE post_name = 'guinean-dancer-fadima-konate-african-dance-and-tradition' AND post_type IN ( 'page' ) AND ID != 252 AND post_parent = 0 LIMIT 1
+---- to ----
+SELECT post_name FROM wp_posts WHERE post_name = 'guinean-dancer-fadima-konate-african-dance-and-tradition' AND post_type IN ( 'page' ) AND "ID" != 252 AND post_parent = 0 LIMIT 1
+---------------------
+[1355775578.19] Converting :
+SELECT post_name FROM wp_posts WHERE post_name = '252-revision' AND post_type = 'revision' AND ID != 0 LIMIT 1
+---- to ----
+SELECT post_name FROM wp_posts WHERE post_name = '252-revision' AND post_type = 'revision' AND "ID" != 0 LIMIT 1
+---------------------
+[1355775578.19] Converting :
+SELECT post_name FROM wp_posts WHERE post_name = '252-revision-2' AND post_type = 'revision' AND ID != 0 LIMIT 1
+---- to ----
+SELECT post_name FROM wp_posts WHERE post_name = '252-revision-2' AND post_type = 'revision' AND "ID" != 0 LIMIT 1
+---------------------
+[1355775578.19] Converting :
+SELECT post_name FROM wp_posts WHERE post_name = '252-revision-3' AND post_type = 'revision' AND ID != 0 LIMIT 1
+---- to ----
+SELECT post_name FROM wp_posts WHERE post_name = '252-revision-3' AND post_type = 'revision' AND "ID" != 0 LIMIT 1
+---------------------
+[1355775578.19] Converting :
+SELECT * FROM wp_posts WHERE ID = 256 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 256 LIMIT 1
+---------------------
+[1355775578.2] Converting :
+SELECT * FROM wp_posts WHERE ID = 256 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 256 LIMIT 1
+---------------------
+[1355775578.21] Converting :
+SELECT * FROM wp_posts WHERE ID = 252 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 252 LIMIT 1
+---------------------
+[1355775578.61] Converting :
+SELECT * FROM wp_posts WHERE ID = 252 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 252 LIMIT 1
+---------------------
+[1355775578.7] Converting :
+SELECT post_name FROM wp_posts WHERE post_name = 'guinean-dancer-fadima-konate-african-dance-and-tradition' AND post_type IN ( 'page' ) AND ID != 252 AND post_parent = 0 LIMIT 1
+---- to ----
+SELECT post_name FROM wp_posts WHERE post_name = 'guinean-dancer-fadima-konate-african-dance-and-tradition' AND post_type IN ( 'page' ) AND "ID" != 252 AND post_parent = 0 LIMIT 1
+---------------------
+[1355775578.74] Converting :
+SELECT meta_key
+		FROM wp_postmeta
+		GROUP BY meta_key
+		HAVING meta_key NOT LIKE '\_%'
+		ORDER BY meta_key
+		LIMIT 30
+---- to ----
+SELECT meta_key
+		FROM wp_postmeta
+		GROUP BY meta_key
+		HAVING meta_key NOT ILIKE '\_%'
+		ORDER BY meta_key
+		LIMIT 30
+---------------------
+[1355775578.74] Converting :
+SELECT COUNT(*) FROM wp_comments  WHERE ( comment_approved = '0' OR comment_approved = '1' ) AND comment_post_ID = 252  ORDER BY comment_date_gmt DESC LIMIT 1
+---- to ----
+SELECT COUNT(*) FROM wp_comments  WHERE ( comment_approved = '0' OR comment_approved = '1' ) AND "comment_post_ID" = 252  
+---------------------
+[1355775578.75] Converting :
+SELECT wp_users.ID,wp_users.display_name FROM wp_users INNER JOIN wp_usermeta ON (wp_users.ID = wp_usermeta.user_id) WHERE 1=1 AND ( (wp_usermeta.meta_key = 'wp_user_level' AND CAST(wp_usermeta.meta_value AS CHAR) != '0') ) ORDER BY display_name ASC
+---- to ----
+SELECT wp_users."ID" ,wp_users.display_name FROM wp_users INNER JOIN wp_usermeta ON (wp_users."ID" = wp_usermeta.user_id) WHERE 1=1 AND ( (wp_usermeta.meta_key = 'wp_user_level' AND CAST(wp_usermeta.meta_value AS TEXT) != '0') ) ORDER BY display_name ASC
+---------------------
+[1355775580.02] Converting :
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.ID = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---- to ----
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts."ID" = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---------------------
+[1355775580.03] Converting :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2012-12-17 20:12:40' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+---- to ----
+SELECT "ID" FROM wp_posts AS p  WHERE p.post_date < '2012-12-17 20:12:40' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+---------------------
+[1355775580.03] Converting :
+SELECT * FROM wp_posts WHERE ID = 146 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 146 LIMIT 1
+---------------------
+[1355775580.04] Converting :
+SELECT * FROM wp_posts WHERE ID = 2009 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 2009 LIMIT 1
+---------------------
+[1355775580.04] Converting :
+SELECT * FROM wp_posts WHERE ID = 2009 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 2009 LIMIT 1
+---------------------
+[1355775580.04] Converting :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2012-12-17 20:12:40' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+---- to ----
+SELECT "ID" FROM wp_posts AS p  WHERE p.post_date > '2012-12-17 20:12:40' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+---------------------
+[1355775580.04] Converting :
+SELECT * FROM wp_users WHERE ID = '1'
+---- to ----
+SELECT * FROM wp_users WHERE "ID" = '1'
+---------------------
+[1355775580.48] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('index-png') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('index-png') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355775580.49] Converting :
+SELECT post_id FROM wp_postmeta, wp_posts WHERE ID = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'index-png'
+---- to ----
+SELECT post_id FROM wp_postmeta, wp_posts WHERE "ID" = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'index-png'
+---------------------
+[1355775580.49] Converting :
+SELECT ID FROM wp_posts WHERE post_name LIKE 'index-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---- to ----
+SELECT "ID" FROM wp_posts WHERE post_name ILIKE 'index-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---------------------
+[1355775580.58] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('mainbg-png') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('mainbg-png') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355775580.58] Converting :
+SELECT post_id FROM wp_postmeta, wp_posts WHERE ID = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'mainbg-png'
+---- to ----
+SELECT post_id FROM wp_postmeta, wp_posts WHERE "ID" = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'mainbg-png'
+---------------------
+[1355775580.58] Converting :
+SELECT ID FROM wp_posts WHERE post_name LIKE 'mainbg-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---- to ----
+SELECT "ID" FROM wp_posts WHERE post_name ILIKE 'mainbg-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---------------------
+[1355775639.56] Converting :
+SELECT `comment_post_ID` as `post_id`, COUNT(comment_ID) as `comment_count` FROM `wp_comments` WHERE `comment_approved`='1' GROUP BY `comment_post_ID`
+---- to ----
+SELECT "comment_post_ID" as post_id, COUNT("comment_ID" ) as comment_count FROM wp_comments WHERE comment_approved='1' GROUP BY "comment_post_ID" 
+---------------------
+[1355775639.56] Converting :
+SELECT * FROM wp_posts WHERE ID = 252 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 252 LIMIT 1
+---------------------
+[1355775639.56] Converting :
+SELECT COUNT(*) AS cnt FROM `wp_posts` WHERE ( (post_status = 'publish' AND (post_type = 'post' OR post_type = ''))  OR  (post_status = 'publish' AND post_type = 'page') )  AND post_password='' ORDER BY post_modified DESC
+---- to ----
+SELECT COUNT(*) AS cnt FROM wp_posts WHERE ( (post_status = 'publish' AND (post_type = 'post' OR post_type = ''))  OR  (post_status = 'publish' AND post_type = 'page') )  AND post_password='' 
+---------------------
+[1355775639.64] Converting :
+SELECT * FROM wp_posts WHERE ID = 252 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 252 LIMIT 1
+---------------------
+[1355775682.71] Converting :
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.ID = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---- to ----
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts."ID" = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---------------------
+[1355775682.73] Converting :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2012-12-17 20:12:40' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+---- to ----
+SELECT "ID" FROM wp_posts AS p  WHERE p.post_date < '2012-12-17 20:12:40' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+---------------------
+[1355775682.73] Converting :
+SELECT * FROM wp_posts WHERE ID = 146 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 146 LIMIT 1
+---------------------
+[1355775682.73] Converting :
+SELECT * FROM wp_posts WHERE ID = 2009 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 2009 LIMIT 1
+---------------------
+[1355775682.74] Converting :
+SELECT * FROM wp_posts WHERE ID = 2009 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 2009 LIMIT 1
+---------------------
+[1355775682.74] Converting :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2012-12-17 20:12:40' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+---- to ----
+SELECT "ID" FROM wp_posts AS p  WHERE p.post_date > '2012-12-17 20:12:40' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+---------------------
+[1355775682.74] Converting :
+SELECT * FROM wp_users WHERE ID = '1'
+---- to ----
+SELECT * FROM wp_users WHERE "ID" = '1'
+---------------------
+[1355775683.2] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('mainbg-png') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('mainbg-png') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355775683.21] Converting :
+SELECT post_id FROM wp_postmeta, wp_posts WHERE ID = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'mainbg-png'
+---- to ----
+SELECT post_id FROM wp_postmeta, wp_posts WHERE "ID" = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'mainbg-png'
+---------------------
+[1355775683.21] Converting :
+SELECT ID FROM wp_posts WHERE post_name LIKE 'mainbg-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---- to ----
+SELECT "ID" FROM wp_posts WHERE post_name ILIKE 'mainbg-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---------------------
+[1355775699.23] Converting :
+SELECT * FROM wp_posts WHERE ID = 252 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 252 LIMIT 1
+---------------------
+[1355775759.26] Converting :
+SELECT * FROM wp_posts WHERE ID = 252 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 252 LIMIT 1
+---------------------
+[1355775807.24] Converting :
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.ID = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---- to ----
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts."ID" = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---------------------
+[1355775807.26] Converting :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2012-12-17 20:12:40' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+---- to ----
+SELECT "ID" FROM wp_posts AS p  WHERE p.post_date < '2012-12-17 20:12:40' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+---------------------
+[1355775807.26] Converting :
+SELECT * FROM wp_posts WHERE ID = 146 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 146 LIMIT 1
+---------------------
+[1355775807.27] Converting :
+SELECT * FROM wp_posts WHERE ID = 2009 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 2009 LIMIT 1
+---------------------
+[1355775807.27] Converting :
+SELECT * FROM wp_posts WHERE ID = 2009 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 2009 LIMIT 1
+---------------------
+[1355775807.27] Converting :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2012-12-17 20:12:40' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+---- to ----
+SELECT "ID" FROM wp_posts AS p  WHERE p.post_date > '2012-12-17 20:12:40' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+---------------------
+[1355775807.27] Converting :
+SELECT * FROM wp_users WHERE ID = '1'
+---- to ----
+SELECT * FROM wp_users WHERE "ID" = '1'
+---------------------
+[1355775807.28] Converting :
+SELECT * FROM wp_posts  WHERE (post_type = 'page' AND post_status = 'publish')  AND ( ID <> 252 )    ORDER BY menu_order,wp_posts.post_title ASC
+---- to ----
+SELECT * FROM wp_posts  WHERE (post_type = 'page' AND post_status = 'publish')  AND ( "ID" <> 252 )    ORDER BY menu_order,wp_posts.post_title ASC
+---------------------
+[1355775807.69] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('mainbg-png') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('mainbg-png') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355775807.69] Converting :
+SELECT post_id FROM wp_postmeta, wp_posts WHERE ID = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'mainbg-png'
+---- to ----
+SELECT post_id FROM wp_postmeta, wp_posts WHERE "ID" = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'mainbg-png'
+---------------------
+[1355775807.69] Converting :
+SELECT ID FROM wp_posts WHERE post_name LIKE 'mainbg-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---- to ----
+SELECT "ID" FROM wp_posts WHERE post_name ILIKE 'mainbg-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---------------------
+[1355775807.72] Converting :
+SELECT * FROM wp_posts  WHERE (post_type = 'page' AND post_status = 'publish')  AND ( ID <> 252 )    ORDER BY menu_order,wp_posts.post_title ASC
+---- to ----
+SELECT * FROM wp_posts  WHERE (post_type = 'page' AND post_status = 'publish')  AND ( "ID" <> 252 )    ORDER BY menu_order,wp_posts.post_title ASC
+---------------------
+[1355775819.25] Converting :
+SELECT * FROM wp_posts WHERE ID = 252 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 252 LIMIT 1
+---------------------
+[1355775879.26] Converting :
+SELECT * FROM wp_posts WHERE ID = 252 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 252 LIMIT 1
+---------------------
+[1355775939.26] Converting :
+SELECT * FROM wp_posts WHERE ID = 252 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 252 LIMIT 1
+---------------------
+[1355775951.73] Converting :
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.ID = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---- to ----
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts."ID" = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---------------------
+[1355775951.73] Converting :
+SELECT * FROM wp_users WHERE ID = '1'
+---- to ----
+SELECT * FROM wp_users WHERE "ID" = '1'
+---------------------
+[1355775952.17] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('mainbg-png') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('mainbg-png') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355775952.17] Converting :
+SELECT post_id FROM wp_postmeta, wp_posts WHERE ID = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'mainbg-png'
+---- to ----
+SELECT post_id FROM wp_postmeta, wp_posts WHERE "ID" = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'mainbg-png'
+---------------------
+[1355775952.17] Converting :
+SELECT ID FROM wp_posts WHERE post_name LIKE 'mainbg-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---- to ----
+SELECT "ID" FROM wp_posts WHERE post_name ILIKE 'mainbg-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---------------------
+[1355775952.2] Converting :
+SELECT * FROM wp_posts  WHERE (post_type = 'page' AND post_status = 'publish')  AND ( ID <> 252 )    ORDER BY menu_order,wp_posts.post_title ASC
+---- to ----
+SELECT * FROM wp_posts  WHERE (post_type = 'page' AND post_status = 'publish')  AND ( "ID" <> 252 )    ORDER BY menu_order,wp_posts.post_title ASC
+---------------------
+[1355775968.56] Converting :
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.ID = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---- to ----
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts."ID" = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---------------------
+[1355775968.56] Converting :
+SELECT * FROM wp_users WHERE ID = '1'
+---- to ----
+SELECT * FROM wp_users WHERE "ID" = '1'
+---------------------
+[1355775968.98] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('mainbg-png') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('mainbg-png') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355775968.98] Converting :
+SELECT post_id FROM wp_postmeta, wp_posts WHERE ID = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'mainbg-png'
+---- to ----
+SELECT post_id FROM wp_postmeta, wp_posts WHERE "ID" = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'mainbg-png'
+---------------------
+[1355775968.98] Converting :
+SELECT ID FROM wp_posts WHERE post_name LIKE 'mainbg-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---- to ----
+SELECT "ID" FROM wp_posts WHERE post_name ILIKE 'mainbg-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---------------------
+[1355775969.01] Converting :
+SELECT * FROM wp_posts  WHERE (post_type = 'page' AND post_status = 'publish')  AND ( ID <> 252 )    ORDER BY menu_order,wp_posts.post_title ASC
+---- to ----
+SELECT * FROM wp_posts  WHERE (post_type = 'page' AND post_status = 'publish')  AND ( "ID" <> 252 )    ORDER BY menu_order,wp_posts.post_title ASC
+---------------------
+[1355775975.24] Converting :
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.ID = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---- to ----
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts."ID" = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---------------------
+[1355775975.25] Converting :
+SELECT * FROM wp_users WHERE ID = '1'
+---- to ----
+SELECT * FROM wp_users WHERE "ID" = '1'
+---------------------
+[1355775975.7] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('lang','mainbg-png') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('lang','mainbg-png') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355775975.71] Converting :
+SELECT post_id FROM wp_postmeta, wp_posts WHERE ID = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'mainbg-png'
+---- to ----
+SELECT post_id FROM wp_postmeta, wp_posts WHERE "ID" = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'mainbg-png'
+---------------------
+[1355775975.71] Converting :
+SELECT ID FROM wp_posts WHERE post_name LIKE 'mainbg-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---- to ----
+SELECT "ID" FROM wp_posts WHERE post_name ILIKE 'mainbg-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---------------------
+[1355775975.73] Converting :
+SELECT * FROM wp_posts  WHERE (post_type = 'page' AND post_status = 'publish')  AND ( ID <> 252 )    ORDER BY menu_order,wp_posts.post_title ASC
+---- to ----
+SELECT * FROM wp_posts  WHERE (post_type = 'page' AND post_status = 'publish')  AND ( "ID" <> 252 )    ORDER BY menu_order,wp_posts.post_title ASC
+---------------------
+[1355775999.29] Converting :
+SELECT * FROM wp_posts WHERE ID = 252 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 252 LIMIT 1
+---------------------
+[1355776003.47] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('wp-admin','edit-php') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('wp-admin','edit-php') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355776003.52] Converting :
+SELECT DISTINCT YEAR( post_date ) AS year, MONTH( post_date ) AS month
+			FROM wp_posts
+			WHERE post_type = 'page'
+			ORDER BY post_date DESC
+---- to ----
+SELECT DISTINCT EXTRACT(YEAR FROM  post_date ) AS year, EXTRACT(MONTH FROM  post_date ) AS month
+			FROM wp_posts
+			WHERE post_type = 'page'
+			ORDER BY EXTRACT(YEAR FROM post_date) DESC, EXTRACT(MONTH FROM post_date) DESC
+---------------------
+[1355776003.58] Converting :
+SELECT * FROM wp_posts WHERE ID = 2009 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 2009 LIMIT 1
+---------------------
+[1355776003.58] Converting :
+SELECT * FROM wp_posts WHERE ID = 2009 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 2009 LIMIT 1
+---------------------
+[1355776003.58] Converting :
+SELECT * FROM wp_posts WHERE ID = 2009 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 2009 LIMIT 1
+---------------------
+[1355776003.59] Converting :
+SELECT wp_users.ID,wp_users.display_name FROM wp_users INNER JOIN wp_usermeta ON (wp_users.ID = wp_usermeta.user_id) WHERE 1=1 AND ( (wp_usermeta.meta_key = 'wp_user_level' AND CAST(wp_usermeta.meta_value AS CHAR) != '0') ) ORDER BY display_name ASC
+---- to ----
+SELECT wp_users."ID" ,wp_users.display_name FROM wp_users INNER JOIN wp_usermeta ON (wp_users."ID" = wp_usermeta.user_id) WHERE 1=1 AND ( (wp_usermeta.meta_key = 'wp_user_level' AND CAST(wp_usermeta.meta_value AS TEXT) != '0') ) ORDER BY display_name ASC
+---------------------
+[1355776003.6] Converting :
+SELECT wp_users.ID,wp_users.display_name FROM wp_users INNER JOIN wp_usermeta ON (wp_users.ID = wp_usermeta.user_id) WHERE 1=1 AND ( (wp_usermeta.meta_key = 'wp_user_level' AND CAST(wp_usermeta.meta_value AS CHAR) != '0') ) ORDER BY display_name ASC
+---- to ----
+SELECT wp_users."ID" ,wp_users.display_name FROM wp_users INNER JOIN wp_usermeta ON (wp_users."ID" = wp_usermeta.user_id) WHERE 1=1 AND ( (wp_usermeta.meta_key = 'wp_user_level' AND CAST(wp_usermeta.meta_value AS TEXT) != '0') ) ORDER BY display_name ASC
+---------------------
+[1355776008.65] Converting :
+SELECT * FROM wp_posts WHERE ID = 5 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 5 LIMIT 1
+---------------------
+[1355776008.75] Converting :
+SELECT post_name FROM wp_posts WHERE post_name = 'fadima-konate' AND post_type IN ( 'page' ) AND ID != 5 AND post_parent = 0 LIMIT 1
+---- to ----
+SELECT post_name FROM wp_posts WHERE post_name = 'fadima-konate' AND post_type IN ( 'page' ) AND "ID" != 5 AND post_parent = 0 LIMIT 1
+---------------------
+[1355776008.8] Converting :
+SELECT meta_key
+		FROM wp_postmeta
+		GROUP BY meta_key
+		HAVING meta_key NOT LIKE '\_%'
+		ORDER BY meta_key
+		LIMIT 30
+---- to ----
+SELECT meta_key
+		FROM wp_postmeta
+		GROUP BY meta_key
+		HAVING meta_key NOT ILIKE '\_%'
+		ORDER BY meta_key
+		LIMIT 30
+---------------------
+[1355776008.8] Converting :
+SELECT COUNT(*) FROM wp_comments  WHERE ( comment_approved = '0' OR comment_approved = '1' ) AND comment_post_ID = 5  ORDER BY comment_date_gmt DESC LIMIT 1
+---- to ----
+SELECT COUNT(*) FROM wp_comments  WHERE ( comment_approved = '0' OR comment_approved = '1' ) AND "comment_post_ID" = 5  
+---------------------
+[1355776008.81] Converting :
+SELECT wp_users.ID,wp_users.display_name FROM wp_users INNER JOIN wp_usermeta ON (wp_users.ID = wp_usermeta.user_id) WHERE 1=1 AND ( (wp_usermeta.meta_key = 'wp_user_level' AND CAST(wp_usermeta.meta_value AS CHAR) != '0') ) ORDER BY display_name ASC
+---- to ----
+SELECT wp_users."ID" ,wp_users.display_name FROM wp_users INNER JOIN wp_usermeta ON (wp_users."ID" = wp_usermeta.user_id) WHERE 1=1 AND ( (wp_usermeta.meta_key = 'wp_user_level' AND CAST(wp_usermeta.meta_value AS TEXT) != '0') ) ORDER BY display_name ASC
+---------------------
+[1355776059.3] Converting :
+SELECT * FROM wp_posts WHERE ID = 252 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 252 LIMIT 1
+---------------------
+[1355776069.29] Converting :
+SELECT * FROM wp_posts WHERE ID = 5 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 5 LIMIT 1
+---------------------
+[1355776077.67] Converting :
+SELECT * FROM wp_posts WHERE ID = 252 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 252 LIMIT 1
+---------------------
+[1355776077.68] Converting :
+SELECT post_name FROM wp_posts WHERE post_name = 'guinean-dancer-fadima-konate-african-dance-and-tradition' AND post_type IN ( 'page' ) AND ID != 252 AND post_parent = 0 LIMIT 1
+---- to ----
+SELECT post_name FROM wp_posts WHERE post_name = 'guinean-dancer-fadima-konate-african-dance-and-tradition' AND post_type IN ( 'page' ) AND "ID" != 252 AND post_parent = 0 LIMIT 1
+---------------------
+[1355776077.69] Converting :
+SELECT post_name FROM wp_posts WHERE post_name = '252-revision' AND post_type = 'revision' AND ID != 0 LIMIT 1
+---- to ----
+SELECT post_name FROM wp_posts WHERE post_name = '252-revision' AND post_type = 'revision' AND "ID" != 0 LIMIT 1
+---------------------
+[1355776077.69] Converting :
+SELECT post_name FROM wp_posts WHERE post_name = '252-revision-2' AND post_type = 'revision' AND ID != 0 LIMIT 1
+---- to ----
+SELECT post_name FROM wp_posts WHERE post_name = '252-revision-2' AND post_type = 'revision' AND "ID" != 0 LIMIT 1
+---------------------
+[1355776077.69] Converting :
+SELECT post_name FROM wp_posts WHERE post_name = '252-revision-3' AND post_type = 'revision' AND ID != 0 LIMIT 1
+---- to ----
+SELECT post_name FROM wp_posts WHERE post_name = '252-revision-3' AND post_type = 'revision' AND "ID" != 0 LIMIT 1
+---------------------
+[1355776077.69] Converting :
+SELECT post_name FROM wp_posts WHERE post_name = '252-revision-4' AND post_type = 'revision' AND ID != 0 LIMIT 1
+---- to ----
+SELECT post_name FROM wp_posts WHERE post_name = '252-revision-4' AND post_type = 'revision' AND "ID" != 0 LIMIT 1
+---------------------
+[1355776077.69] Converting :
+SELECT * FROM wp_posts WHERE ID = 257 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 257 LIMIT 1
+---------------------
+[1355776077.7] Converting :
+SELECT * FROM wp_posts WHERE ID = 257 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 257 LIMIT 1
+---------------------
+[1355776077.72] Converting :
+SELECT * FROM wp_posts WHERE ID = 252 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 252 LIMIT 1
+---------------------
+[1355776078.18] Converting :
+SELECT * FROM wp_posts WHERE ID = 252 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 252 LIMIT 1
+---------------------
+[1355776078.26] Converting :
+SELECT post_name FROM wp_posts WHERE post_name = 'guinean-dancer-fadima-konate-african-dance-and-tradition' AND post_type IN ( 'page' ) AND ID != 252 AND post_parent = 0 LIMIT 1
+---- to ----
+SELECT post_name FROM wp_posts WHERE post_name = 'guinean-dancer-fadima-konate-african-dance-and-tradition' AND post_type IN ( 'page' ) AND "ID" != 252 AND post_parent = 0 LIMIT 1
+---------------------
+[1355776078.29] Converting :
+SELECT meta_key
+		FROM wp_postmeta
+		GROUP BY meta_key
+		HAVING meta_key NOT LIKE '\_%'
+		ORDER BY meta_key
+		LIMIT 30
+---- to ----
+SELECT meta_key
+		FROM wp_postmeta
+		GROUP BY meta_key
+		HAVING meta_key NOT ILIKE '\_%'
+		ORDER BY meta_key
+		LIMIT 30
+---------------------
+[1355776078.29] Converting :
+SELECT COUNT(*) FROM wp_comments  WHERE ( comment_approved = '0' OR comment_approved = '1' ) AND comment_post_ID = 252  ORDER BY comment_date_gmt DESC LIMIT 1
+---- to ----
+SELECT COUNT(*) FROM wp_comments  WHERE ( comment_approved = '0' OR comment_approved = '1' ) AND "comment_post_ID" = 252  
+---------------------
+[1355776078.3] Converting :
+SELECT wp_users.ID,wp_users.display_name FROM wp_users INNER JOIN wp_usermeta ON (wp_users.ID = wp_usermeta.user_id) WHERE 1=1 AND ( (wp_usermeta.meta_key = 'wp_user_level' AND CAST(wp_usermeta.meta_value AS CHAR) != '0') ) ORDER BY display_name ASC
+---- to ----
+SELECT wp_users."ID" ,wp_users.display_name FROM wp_users INNER JOIN wp_usermeta ON (wp_users."ID" = wp_usermeta.user_id) WHERE 1=1 AND ( (wp_usermeta.meta_key = 'wp_user_level' AND CAST(wp_usermeta.meta_value AS TEXT) != '0') ) ORDER BY display_name ASC
+---------------------
+[1355776080.35] Converting :
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.ID = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---- to ----
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts."ID" = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---------------------
+[1355776080.35] Converting :
+SELECT * FROM wp_users WHERE ID = '1'
+---- to ----
+SELECT * FROM wp_users WHERE "ID" = '1'
+---------------------
+[1355776080.67] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('mainbg-png') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('mainbg-png') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355776080.68] Converting :
+SELECT post_id FROM wp_postmeta, wp_posts WHERE ID = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'mainbg-png'
+---- to ----
+SELECT post_id FROM wp_postmeta, wp_posts WHERE "ID" = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'mainbg-png'
+---------------------
+[1355776080.68] Converting :
+SELECT ID FROM wp_posts WHERE post_name LIKE 'mainbg-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---- to ----
+SELECT "ID" FROM wp_posts WHERE post_name ILIKE 'mainbg-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---------------------
+[1355776080.7] Converting :
+SELECT * FROM wp_posts  WHERE (post_type = 'page' AND post_status = 'publish')  AND ( ID <> 252 )    ORDER BY menu_order,wp_posts.post_title ASC
+---- to ----
+SELECT * FROM wp_posts  WHERE (post_type = 'page' AND post_status = 'publish')  AND ( "ID" <> 252 )    ORDER BY menu_order,wp_posts.post_title ASC
+---------------------
+[1355776102.59] Converting :
+SELECT `comment_post_ID` as `post_id`, COUNT(comment_ID) as `comment_count` FROM `wp_comments` WHERE `comment_approved`='1' GROUP BY `comment_post_ID`
+---- to ----
+SELECT "comment_post_ID" as post_id, COUNT("comment_ID" ) as comment_count FROM wp_comments WHERE comment_approved='1' GROUP BY "comment_post_ID" 
+---------------------
+[1355776102.59] Converting :
+SELECT * FROM wp_posts WHERE ID = 252 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 252 LIMIT 1
+---------------------
+[1355776102.59] Converting :
+SELECT COUNT(*) AS cnt FROM `wp_posts` WHERE ( (post_status = 'publish' AND (post_type = 'post' OR post_type = ''))  OR  (post_status = 'publish' AND post_type = 'page') )  AND post_password='' ORDER BY post_modified DESC
+---- to ----
+SELECT COUNT(*) AS cnt FROM wp_posts WHERE ( (post_status = 'publish' AND (post_type = 'post' OR post_type = ''))  OR  (post_status = 'publish' AND post_type = 'page') )  AND post_password='' 
+---------------------
+[1355776102.64] Converting :
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.ID = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---- to ----
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts."ID" = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---------------------
+[1355776102.64] Converting :
+SELECT * FROM wp_users WHERE ID = '1'
+---- to ----
+SELECT * FROM wp_users WHERE "ID" = '1'
+---------------------
+[1355776103.04] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('mainbg-png') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('mainbg-png') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355776103.04] Converting :
+SELECT post_id FROM wp_postmeta, wp_posts WHERE ID = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'mainbg-png'
+---- to ----
+SELECT post_id FROM wp_postmeta, wp_posts WHERE "ID" = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'mainbg-png'
+---------------------
+[1355776103.04] Converting :
+SELECT ID FROM wp_posts WHERE post_name LIKE 'mainbg-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---- to ----
+SELECT "ID" FROM wp_posts WHERE post_name ILIKE 'mainbg-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---------------------
+[1355776103.07] Converting :
+SELECT * FROM wp_posts  WHERE (post_type = 'page' AND post_status = 'publish')  AND ( ID <> 252 )    ORDER BY menu_order,wp_posts.post_title ASC
+---- to ----
+SELECT * FROM wp_posts  WHERE (post_type = 'page' AND post_status = 'publish')  AND ( "ID" <> 252 )    ORDER BY menu_order,wp_posts.post_title ASC
+---------------------
+[1355776129.36] Converting :
+SELECT * FROM wp_posts WHERE ID = 5 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 5 LIMIT 1
+---------------------
+[1355776138.79] Converting :
+SELECT * FROM wp_posts WHERE ID = 252 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 252 LIMIT 1
+---------------------
+[1355776150.92] Converting :
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.ID = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---- to ----
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts."ID" = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---------------------
+[1355776150.93] Converting :
+SELECT * FROM wp_users WHERE ID = '1'
+---- to ----
+SELECT * FROM wp_users WHERE "ID" = '1'
+---------------------
+[1355776151.29] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('mainbg-png') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('mainbg-png') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355776151.29] Converting :
+SELECT post_id FROM wp_postmeta, wp_posts WHERE ID = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'mainbg-png'
+---- to ----
+SELECT post_id FROM wp_postmeta, wp_posts WHERE "ID" = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'mainbg-png'
+---------------------
+[1355776151.29] Converting :
+SELECT ID FROM wp_posts WHERE post_name LIKE 'mainbg-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---- to ----
+SELECT "ID" FROM wp_posts WHERE post_name ILIKE 'mainbg-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---------------------
+[1355776151.32] Converting :
+SELECT * FROM wp_posts  WHERE (post_type = 'page' AND post_status = 'publish')  AND ( ID <> 252 )    ORDER BY menu_order,wp_posts.post_title ASC
+---- to ----
+SELECT * FROM wp_posts  WHERE (post_type = 'page' AND post_status = 'publish')  AND ( "ID" <> 252 )    ORDER BY menu_order,wp_posts.post_title ASC
+---------------------
+[1355776189.35] Converting :
+SELECT * FROM wp_posts WHERE ID = 5 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 5 LIMIT 1
+---------------------
+[1355776198.78] Converting :
+SELECT * FROM wp_posts WHERE ID = 252 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 252 LIMIT 1
+---------------------
+[1355776249.35] Converting :
+SELECT * FROM wp_posts WHERE ID = 5 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 5 LIMIT 1
+---------------------
+[1355776258.82] Converting :
+SELECT * FROM wp_posts WHERE ID = 252 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 252 LIMIT 1
+---------------------
+[1355776274.93] Converting :
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.ID = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---- to ----
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts."ID" = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---------------------
+[1355776274.93] Converting :
+SELECT * FROM wp_users WHERE ID = '1'
+---- to ----
+SELECT * FROM wp_users WHERE "ID" = '1'
+---------------------
+[1355776275.28] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('mainbg-png') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('mainbg-png') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355776275.29] Converting :
+SELECT post_id FROM wp_postmeta, wp_posts WHERE ID = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'mainbg-png'
+---- to ----
+SELECT post_id FROM wp_postmeta, wp_posts WHERE "ID" = post_id AND post_type = 'post' AND meta_key = '_wp_old_slug' AND meta_value = 'mainbg-png'
+---------------------
+[1355776275.29] Converting :
+SELECT ID FROM wp_posts WHERE post_name LIKE 'mainbg-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---- to ----
+SELECT "ID" FROM wp_posts WHERE post_name ILIKE 'mainbg-png%' AND post_type IN ('post', 'page', 'attachment') AND post_status = 'publish'
+---------------------
+[1355776275.31] Converting :
+SELECT * FROM wp_posts  WHERE (post_type = 'page' AND post_status = 'publish')  AND ( ID <> 252 )    ORDER BY menu_order,wp_posts.post_title ASC
+---- to ----
+SELECT * FROM wp_posts  WHERE (post_type = 'page' AND post_status = 'publish')  AND ( "ID" <> 252 )    ORDER BY menu_order,wp_posts.post_title ASC
+---------------------
+[1355776296.07] Converting :
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.ID = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---- to ----
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts."ID" = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---------------------
+[1355776296.08] Converting :
+SELECT * FROM wp_users WHERE ID = '1'
+---- to ----
+SELECT * FROM wp_users WHERE "ID" = '1'
+---------------------
+[1355776303.71] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('fadima-konate') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('fadima-konate') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355776303.71] Converting :
+SELECT * FROM wp_posts WHERE ID = 5 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 5 LIMIT 1
+---------------------
+[1355776303.71] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('fadima-konate') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('fadima-konate') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355776303.71] Converting :
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND (wp_posts.ID = '5') AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---- to ----
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND (wp_posts."ID" = '5') AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---------------------
+[1355776304.05] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('fadima-konate') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('fadima-konate') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355776304.05] Converting :
+SELECT * FROM wp_posts WHERE ID = 5 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 5 LIMIT 1
+---------------------
+[1355776304.05] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('fadima-konate') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('fadima-konate') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355776304.05] Converting :
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND (wp_posts.ID = '5') AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---- to ----
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND (wp_posts."ID" = '5') AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---------------------
+[1355776304.07] Converting :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-10-25 00:04:11' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+---- to ----
+SELECT "ID" FROM wp_posts AS p  WHERE p.post_date < '2009-10-25 00:04:11' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+---------------------
+[1355776304.08] Converting :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-10-25 00:04:11' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+---- to ----
+SELECT "ID" FROM wp_posts AS p  WHERE p.post_date > '2009-10-25 00:04:11' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+---------------------
+[1355776304.08] Converting :
+SELECT * FROM wp_posts WHERE ID = 7 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 7 LIMIT 1
+---------------------
+[1355776304.08] Converting :
+SELECT * FROM wp_users WHERE ID = '1'
+---- to ----
+SELECT * FROM wp_users WHERE "ID" = '1'
+---------------------
+[1355776304.09] Converting :
+SELECT * FROM wp_posts  WHERE (post_type = 'page' AND post_status = 'publish')  AND ( ID <> 252 )    ORDER BY menu_order,wp_posts.post_title ASC
+---- to ----
+SELECT * FROM wp_posts  WHERE (post_type = 'page' AND post_status = 'publish')  AND ( "ID" <> 252 )    ORDER BY menu_order,wp_posts.post_title ASC
+---------------------
+[1355776304.81] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('workshops') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('workshops') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355776304.81] Converting :
+SELECT * FROM wp_posts WHERE ID = 7 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 7 LIMIT 1
+---------------------
+[1355776304.81] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('workshops') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('workshops') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355776304.81] Converting :
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND (wp_posts.ID = '7') AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---- to ----
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND (wp_posts."ID" = '7') AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---------------------
+[1355776305.13] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('workshops') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('workshops') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355776305.14] Converting :
+SELECT * FROM wp_posts WHERE ID = 7 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 7 LIMIT 1
+---------------------
+[1355776305.14] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('workshops') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('workshops') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355776305.14] Converting :
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND (wp_posts.ID = '7') AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---- to ----
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND (wp_posts."ID" = '7') AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---------------------
+[1355776305.16] Converting :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-10-25 00:43:23' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+---- to ----
+SELECT "ID" FROM wp_posts AS p  WHERE p.post_date < '2009-10-25 00:43:23' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+---------------------
+[1355776305.16] Converting :
+SELECT * FROM wp_posts WHERE ID = 5 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 5 LIMIT 1
+---------------------
+[1355776305.16] Converting :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-10-25 00:43:23' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+---- to ----
+SELECT "ID" FROM wp_posts AS p  WHERE p.post_date > '2009-10-25 00:43:23' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+---------------------
+[1355776305.16] Converting :
+SELECT * FROM wp_posts WHERE ID = 37 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 37 LIMIT 1
+---------------------
+[1355776305.17] Converting :
+SELECT * FROM wp_users WHERE ID = '1'
+---- to ----
+SELECT * FROM wp_users WHERE "ID" = '1'
+---------------------
+[1355776305.18] Converting :
+SELECT * FROM wp_posts  WHERE (post_type = 'page' AND post_status = 'publish')  AND ( ID <> 252 )    ORDER BY menu_order,wp_posts.post_title ASC
+---- to ----
+SELECT * FROM wp_posts  WHERE (post_type = 'page' AND post_status = 'publish')  AND ( "ID" <> 252 )    ORDER BY menu_order,wp_posts.post_title ASC
+---------------------
+[1355776309.32] Converting :
+SELECT * FROM wp_posts WHERE ID = 5 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 5 LIMIT 1
+---------------------
+[1355776318.78] Converting :
+SELECT * FROM wp_posts WHERE ID = 252 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 252 LIMIT 1
+---------------------
+[1355776369.37] Converting :
+SELECT * FROM wp_posts WHERE ID = 5 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 5 LIMIT 1
+---------------------
+[1355776378.84] Converting :
+SELECT * FROM wp_posts WHERE ID = 252 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 252 LIMIT 1
+---------------------
+[1355776397.93] Converting :
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.ID = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---- to ----
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts."ID" = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---------------------
+[1355776397.94] Converting :
+SELECT * FROM wp_users WHERE ID = '1'
+---- to ----
+SELECT * FROM wp_users WHERE "ID" = '1'
+---------------------
+[1355776428.27] Converting :
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.ID = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---- to ----
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts."ID" = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---------------------
+[1355776428.28] Converting :
+SELECT * FROM wp_users WHERE ID = '1'
+---- to ----
+SELECT * FROM wp_users WHERE "ID" = '1'
+---------------------
+[1355776429.33] Converting :
+SELECT * FROM wp_posts WHERE ID = 5 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 5 LIMIT 1
+---------------------
+[1355776438.85] Converting :
+SELECT * FROM wp_posts WHERE ID = 252 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 252 LIMIT 1
+---------------------
+[1355776438.86] Converting :
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.ID = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---- to ----
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts."ID" = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---------------------
+[1355776438.86] Converting :
+SELECT * FROM wp_users WHERE ID = '1'
+---- to ----
+SELECT * FROM wp_users WHERE "ID" = '1'
+---------------------
+[1355776456.52] Converting :
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.ID = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---- to ----
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts."ID" = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---------------------
+[1355776456.53] Converting :
+SELECT * FROM wp_users WHERE ID = '1'
+---- to ----
+SELECT * FROM wp_users WHERE "ID" = '1'
+---------------------
+[1355776472.02] Converting :
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.ID = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---- to ----
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts."ID" = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---------------------
+[1355776472.03] Converting :
+SELECT * FROM wp_users WHERE ID = '1'
+---- to ----
+SELECT * FROM wp_users WHERE "ID" = '1'
+---------------------
+[1355776489.36] Converting :
+SELECT * FROM wp_posts WHERE ID = 5 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 5 LIMIT 1
+---------------------
+[1355776498.8] Converting :
+SELECT * FROM wp_posts WHERE ID = 252 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 252 LIMIT 1
+---------------------
+[1355776505.74] Converting :
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.ID = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---- to ----
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts."ID" = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---------------------
+[1355776505.74] Converting :
+SELECT * FROM wp_users WHERE ID = '1'
+---- to ----
+SELECT * FROM wp_users WHERE "ID" = '1'
+---------------------
+[1355776549.39] Converting :
+SELECT * FROM wp_posts WHERE ID = 5 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 5 LIMIT 1
+---------------------
+[1355776558.85] Converting :
+SELECT * FROM wp_posts WHERE ID = 252 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 252 LIMIT 1
+---------------------
+[1355776609.39] Converting :
+SELECT * FROM wp_posts WHERE ID = 5 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 5 LIMIT 1
+---------------------
+[1355776618.85] Converting :
+SELECT * FROM wp_posts WHERE ID = 252 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 252 LIMIT 1
+---------------------
+[1355776669.4] Converting :
+SELECT * FROM wp_posts WHERE ID = 5 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 5 LIMIT 1
+---------------------
+[1355776673.27] Converting :
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.ID = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---- to ----
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts."ID" = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---------------------
+[1355776673.27] Converting :
+SELECT * FROM wp_users WHERE ID = '1'
+---- to ----
+SELECT * FROM wp_users WHERE "ID" = '1'
+---------------------
+[1355776678.9] Converting :
+SELECT * FROM wp_posts WHERE ID = 252 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 252 LIMIT 1
+---------------------
+[1355776685.81] Converting :
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.ID = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---- to ----
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts."ID" = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---------------------
+[1355776685.81] Converting :
+SELECT * FROM wp_users WHERE ID = '1'
+---- to ----
+SELECT * FROM wp_users WHERE "ID" = '1'
+---------------------
+[1355776693.09] Converting :
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.ID = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---- to ----
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts."ID" = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---------------------
+[1355776693.09] Converting :
+SELECT * FROM wp_users WHERE ID = '1'
+---- to ----
+SELECT * FROM wp_users WHERE "ID" = '1'
+---------------------
+[1355776707.64] Converting :
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.ID = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---- to ----
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts."ID" = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---------------------
+[1355776707.64] Converting :
+SELECT * FROM wp_users WHERE ID = '1'
+---- to ----
+SELECT * FROM wp_users WHERE "ID" = '1'
+---------------------
+[1355776729.4] Converting :
+SELECT * FROM wp_posts WHERE ID = 5 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 5 LIMIT 1
+---------------------
+[1355776736.45] Converting :
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.ID = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---- to ----
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts."ID" = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---------------------
+[1355776736.46] Converting :
+SELECT * FROM wp_users WHERE ID = '1'
+---- to ----
+SELECT * FROM wp_users WHERE "ID" = '1'
+---------------------
+[1355776738.92] Converting :
+SELECT * FROM wp_posts WHERE ID = 252 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 252 LIMIT 1
+---------------------
+[1355776752.06] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('fadima-konate') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('fadima-konate') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355776752.07] Converting :
+SELECT * FROM wp_posts WHERE ID = 5 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 5 LIMIT 1
+---------------------
+[1355776752.07] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('fadima-konate') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('fadima-konate') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355776752.07] Converting :
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND (wp_posts.ID = '5') AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---- to ----
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND (wp_posts."ID" = '5') AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---------------------
+[1355776752.36] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('fadima-konate') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('fadima-konate') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355776752.36] Converting :
+SELECT * FROM wp_posts WHERE ID = 5 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 5 LIMIT 1
+---------------------
+[1355776752.37] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('fadima-konate') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('fadima-konate') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355776752.37] Converting :
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND (wp_posts.ID = '5') AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---- to ----
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND (wp_posts."ID" = '5') AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---------------------
+[1355776752.38] Converting :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-10-25 00:04:11' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+---- to ----
+SELECT "ID" FROM wp_posts AS p  WHERE p.post_date < '2009-10-25 00:04:11' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+---------------------
+[1355776752.38] Converting :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-10-25 00:04:11' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+---- to ----
+SELECT "ID" FROM wp_posts AS p  WHERE p.post_date > '2009-10-25 00:04:11' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+---------------------
+[1355776752.38] Converting :
+SELECT * FROM wp_posts WHERE ID = 7 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 7 LIMIT 1
+---------------------
+[1355776752.39] Converting :
+SELECT * FROM wp_users WHERE ID = '1'
+---- to ----
+SELECT * FROM wp_users WHERE "ID" = '1'
+---------------------
+[1355776752.4] Converting :
+SELECT * FROM wp_posts  WHERE (post_type = 'page' AND post_status = 'publish')  AND ( ID <> 252 )    ORDER BY menu_order,wp_posts.post_title ASC
+---- to ----
+SELECT * FROM wp_posts  WHERE (post_type = 'page' AND post_status = 'publish')  AND ( "ID" <> 252 )    ORDER BY menu_order,wp_posts.post_title ASC
+---------------------
+[1355776753] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('workshops') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('workshops') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355776753] Converting :
+SELECT * FROM wp_posts WHERE ID = 7 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 7 LIMIT 1
+---------------------
+[1355776753] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('workshops') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('workshops') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355776753] Converting :
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND (wp_posts.ID = '7') AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---- to ----
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND (wp_posts."ID" = '7') AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---------------------
+[1355776753.33] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('workshops') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('workshops') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355776753.33] Converting :
+SELECT * FROM wp_posts WHERE ID = 7 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 7 LIMIT 1
+---------------------
+[1355776753.33] Converting :
+SELECT ID, post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('workshops') AND (post_type = 'page' OR post_type = 'attachment')
+---- to ----
+SELECT "ID" , post_name, post_parent, post_type FROM wp_posts WHERE post_name IN ('workshops') AND (post_type = 'page' OR post_type = 'attachment')
+---------------------
+[1355776753.33] Converting :
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND (wp_posts.ID = '7') AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---- to ----
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND (wp_posts."ID" = '7') AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---------------------
+[1355776753.35] Converting :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-10-25 00:43:23' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+---- to ----
+SELECT "ID" FROM wp_posts AS p  WHERE p.post_date < '2009-10-25 00:43:23' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+---------------------
+[1355776753.35] Converting :
+SELECT * FROM wp_posts WHERE ID = 5 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 5 LIMIT 1
+---------------------
+[1355776753.35] Converting :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-10-25 00:43:23' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+---- to ----
+SELECT "ID" FROM wp_posts AS p  WHERE p.post_date > '2009-10-25 00:43:23' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+---------------------
+[1355776753.35] Converting :
+SELECT * FROM wp_posts WHERE ID = 37 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 37 LIMIT 1
+---------------------
+[1355776753.36] Converting :
+SELECT * FROM wp_users WHERE ID = '1'
+---- to ----
+SELECT * FROM wp_users WHERE "ID" = '1'
+---------------------
+[1355776753.37] Converting :
+SELECT * FROM wp_posts  WHERE (post_type = 'page' AND post_status = 'publish')  AND ( ID <> 252 )    ORDER BY menu_order,wp_posts.post_title ASC
+---- to ----
+SELECT * FROM wp_posts  WHERE (post_type = 'page' AND post_status = 'publish')  AND ( "ID" <> 252 )    ORDER BY menu_order,wp_posts.post_title ASC
+---------------------
+[1355776759.16] Converting :
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.ID = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---- to ----
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts."ID" = 252 AND wp_posts.post_type = 'page'  ORDER BY wp_posts.post_date DESC
+---------------------
+[1355776759.17] Converting :
+SELECT * FROM wp_users WHERE ID = '1'
+---- to ----
+SELECT * FROM wp_users WHERE "ID" = '1'
+---------------------
+[1355776789.42] Converting :
+SELECT * FROM wp_posts WHERE ID = 5 LIMIT 1
+---- to ----
+SELECT * FROM wp_posts WHERE "ID" = 5 LIMIT 1
+---------------------
