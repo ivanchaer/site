@@ -1,0 +1,33 @@
+[1355746456.13] Number of rows required for :
+SELECT   wp_posts.ID FROM wp_posts  WHERE 1=1  AND (wp_posts.post_author = 1) AND wp_posts.post_type = 'post' AND (wp_posts.post_status = 'draft')  ORDER BY wp_posts.post_modified DESC LIMIT 0, 5
+---------------------
+[1355746529.38] Number of rows required for :
+SELECT   wp_posts.ID FROM wp_posts  WHERE 1=1  AND (wp_posts.post_mime_type LIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit' OR wp_posts.post_status = 'private')  ORDER BY wp_posts.post_date DESC LIMIT 0, 40
+---------------------
+[1355751771.24] Number of rows required for :
+SELECT   wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit' OR wp_posts.post_status = 'private')  ORDER BY wp_posts.post_date DESC LIMIT 0, 40
+---------------------
+[1355751775.19] Number of rows required for :
+SELECT   wp_posts.ID FROM wp_posts  WHERE 1=1  AND (wp_posts.post_mime_type LIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit' OR wp_posts.post_status = 'private')  ORDER BY wp_posts.post_date DESC LIMIT 0, 40
+---------------------
+[1355751983.41] Number of rows required for :
+SELECT   wp_posts.ID FROM wp_posts  WHERE 1=1  AND (wp_posts.post_mime_type LIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit' OR wp_posts.post_status = 'private')  ORDER BY wp_posts.post_date DESC LIMIT 0, 40
+---------------------
+[1355751998.25] Number of rows required for :
+SELECT   wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit' OR wp_posts.post_status = 'private')  ORDER BY wp_posts.post_date DESC LIMIT 0, 40
+---------------------
+[1355752336.49] Number of rows required for :
+SELECT   wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.post_type = 'wpcf7_contact_form' AND (wp_posts.post_status <> 'trash' AND wp_posts.post_status <> 'auto-draft')  ORDER BY wp_posts.post_title ASC LIMIT 0, 20
+---------------------
+[1355752341.33] Number of rows required for :
+SELECT   wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.post_type = 'post' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'private')  ORDER BY wp_posts.post_date DESC LIMIT 0, 10
+---------------------
+[1355752341.37] Number of rows required for :
+SELECT   wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.post_type = 'post' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'private')  ORDER BY wp_posts.post_date DESC LIMIT 0, 10
+---------------------
+[1355752439.41] Number of rows required for :
+SELECT   wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.post_type = 'post' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'private')  ORDER BY wp_posts.post_date DESC LIMIT 0, 10
+---------------------
+[1355752439.45] Number of rows required for :
+SELECT   wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.post_type = 'post' AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'private')  ORDER BY wp_posts.post_date DESC LIMIT 0, 10
+---------------------

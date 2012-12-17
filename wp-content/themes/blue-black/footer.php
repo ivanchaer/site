@@ -1,7 +1,7 @@
 <!--footer-->
 <div id="footer">
     <div class="footer-text">
-    <span>FadimaKonate.com is a work of Ivan Chaer based on a design by <a href="http://www.bingowebdesign.info/">Bingo</a>. We use the <a href="http://www.wordpress.org/">WP</a> Publishing Platform.</span>
+    <span>FadimaKonate.com website was developed by Ivan Chaer.</span>
         </div>
 </div><!--footer-end-->
 

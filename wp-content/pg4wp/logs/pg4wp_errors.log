@@ -1,0 +1,746 @@
+[1355690479.55] Error running :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+---- converted to ----
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+----> ERROR:  column p.id does not exist
+LINE 1: SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11...
+               ^
+---------------------
+[1355690479.55] Error running :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+---- converted to ----
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+----> ERROR:  column p.id does not exist
+LINE 1: SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11...
+               ^
+---------------------
+[1355690479.6] Error running :
+SELECT   wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.ID IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type LIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts.ID, 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 0, 25
+---- converted to ----
+SELECT   wp_posts."ID" FROM wp_posts  WHERE 1=1  AND wp_posts."ID" IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type ILIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts."ID" , 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 25 OFFSET 0
+----> ERROR:  function field(bigint, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer) does not exist
+LINE 1: ... AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+---------------------
+[1355690555.96] Error running :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+---- converted to ----
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+----> ERROR:  column p.id does not exist
+LINE 1: SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11...
+               ^
+---------------------
+[1355690555.96] Error running :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+---- converted to ----
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+----> ERROR:  column p.id does not exist
+LINE 1: SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11...
+               ^
+---------------------
+[1355690556] Error running :
+SELECT   wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.ID IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type LIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts.ID, 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 0, 25
+---- converted to ----
+SELECT   wp_posts."ID" FROM wp_posts  WHERE 1=1  AND wp_posts."ID" IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type ILIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts."ID" , 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 25 OFFSET 0
+----> ERROR:  function field(bigint, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer) does not exist
+LINE 1: ... AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+---------------------
+[1355690571.41] Error running :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+---- converted to ----
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+----> ERROR:  column p.id does not exist
+LINE 1: SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11...
+               ^
+---------------------
+[1355690571.41] Error running :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+---- converted to ----
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+----> ERROR:  column p.id does not exist
+LINE 1: SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11...
+               ^
+---------------------
+[1355690571.45] Error running :
+SELECT   wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.ID IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type LIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts.ID, 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 0, 25
+---- converted to ----
+SELECT   wp_posts."ID" FROM wp_posts  WHERE 1=1  AND wp_posts."ID" IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type ILIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts."ID" , 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 25 OFFSET 0
+----> ERROR:  function field(bigint, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer) does not exist
+LINE 1: ... AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+---------------------
+[1355690586.1] Error running :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+---- converted to ----
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+----> ERROR:  column p.id does not exist
+LINE 1: SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11...
+               ^
+---------------------
+[1355690586.1] Error running :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+---- converted to ----
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+----> ERROR:  column p.id does not exist
+LINE 1: SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11...
+               ^
+---------------------
+[1355690586.14] Error running :
+SELECT   wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.ID IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type LIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts.ID, 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 0, 25
+---- converted to ----
+SELECT   wp_posts."ID" FROM wp_posts  WHERE 1=1  AND wp_posts."ID" IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type ILIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts."ID" , 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 25 OFFSET 0
+----> ERROR:  function field(bigint, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer) does not exist
+LINE 1: ... AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+---------------------
+[1355690596.94] Error running :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+---- converted to ----
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+----> ERROR:  column p.id does not exist
+LINE 1: SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11...
+               ^
+---------------------
+[1355690596.94] Error running :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+---- converted to ----
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+----> ERROR:  column p.id does not exist
+LINE 1: SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11...
+               ^
+---------------------
+[1355690596.98] Error running :
+SELECT   wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.ID IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type LIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts.ID, 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 0, 25
+---- converted to ----
+SELECT   wp_posts."ID" FROM wp_posts  WHERE 1=1  AND wp_posts."ID" IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type ILIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts."ID" , 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 25 OFFSET 0
+----> ERROR:  function field(bigint, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer) does not exist
+LINE 1: ... AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+---------------------
+[1355690607.79] Error running :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+---- converted to ----
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+----> ERROR:  column p.id does not exist
+LINE 1: SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11...
+               ^
+---------------------
+[1355690607.79] Error running :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+---- converted to ----
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+----> ERROR:  column p.id does not exist
+LINE 1: SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11...
+               ^
+---------------------
+[1355690607.83] Error running :
+SELECT   wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.ID IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type LIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts.ID, 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 0, 25
+---- converted to ----
+SELECT   wp_posts."ID" FROM wp_posts  WHERE 1=1  AND wp_posts."ID" IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type ILIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts."ID" , 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 25 OFFSET 0
+----> ERROR:  function field(bigint, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer) does not exist
+LINE 1: ... AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+---------------------
+[1355690624.12] Error running :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+---- converted to ----
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+----> ERROR:  column p.id does not exist
+LINE 1: SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11...
+               ^
+---------------------
+[1355690624.13] Error running :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+---- converted to ----
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+----> ERROR:  column p.id does not exist
+LINE 1: SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11...
+               ^
+---------------------
+[1355690624.16] Error running :
+SELECT   wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.ID IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type LIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts.ID, 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 0, 25
+---- converted to ----
+SELECT   wp_posts."ID" FROM wp_posts  WHERE 1=1  AND wp_posts."ID" IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type ILIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts."ID" , 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 25 OFFSET 0
+----> ERROR:  function field(bigint, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer) does not exist
+LINE 1: ... AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+---------------------
+[1355690629.31] Error running :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+---- converted to ----
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+----> ERROR:  column p.id does not exist
+LINE 1: SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11...
+               ^
+---------------------
+[1355690629.31] Error running :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+---- converted to ----
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+----> ERROR:  column p.id does not exist
+LINE 1: SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11...
+               ^
+---------------------
+[1355690629.36] Error running :
+SELECT   wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.ID IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type LIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts.ID, 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 0, 25
+---- converted to ----
+SELECT   wp_posts."ID" FROM wp_posts  WHERE 1=1  AND wp_posts."ID" IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type ILIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts."ID" , 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 25 OFFSET 0
+----> ERROR:  function field(bigint, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer) does not exist
+LINE 1: ... AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+---------------------
+[1355690647.02] Error running :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+---- converted to ----
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+----> ERROR:  column p.id does not exist
+LINE 1: SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11...
+               ^
+---------------------
+[1355690647.02] Error running :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+---- converted to ----
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+----> ERROR:  column p.id does not exist
+LINE 1: SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11...
+               ^
+---------------------
+[1355690647.06] Error running :
+SELECT   wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.ID IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type LIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts.ID, 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 0, 25
+---- converted to ----
+SELECT   wp_posts."ID" FROM wp_posts  WHERE 1=1  AND wp_posts."ID" IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type ILIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts."ID" , 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 25 OFFSET 0
+----> ERROR:  function field(bigint, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer) does not exist
+LINE 1: ... AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+---------------------
+[1355690742.42] Error running :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+---- converted to ----
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+----> ERROR:  column p.id does not exist
+LINE 1: SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11...
+               ^
+---------------------
+[1355690742.42] Error running :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+---- converted to ----
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+----> ERROR:  column p.id does not exist
+LINE 1: SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11...
+               ^
+---------------------
+[1355690742.48] Error running :
+SELECT   wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.ID IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type LIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts.ID, 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 0, 25
+---- converted to ----
+SELECT   wp_posts."ID" FROM wp_posts  WHERE 1=1  AND wp_posts."ID" IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type ILIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts."ID" , 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 25 OFFSET 0
+----> ERROR:  function field(bigint, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer) does not exist
+LINE 1: ... AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+---------------------
+[1355690777.76] Error running :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+---- converted to ----
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+----> ERROR:  column p.id does not exist
+LINE 1: SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11...
+               ^
+---------------------
+[1355690777.76] Error running :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+---- converted to ----
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+----> ERROR:  column p.id does not exist
+LINE 1: SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11...
+               ^
+---------------------
+[1355690777.81] Error running :
+SELECT   wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.ID IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type LIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts.ID, 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 0, 25
+---- converted to ----
+SELECT   wp_posts."ID" FROM wp_posts  WHERE 1=1  AND wp_posts."ID" IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type ILIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts."ID" , 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 25 OFFSET 0
+----> ERROR:  function field(bigint, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer) does not exist
+LINE 1: ... AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+---------------------
+[1355692374.21] Error running :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+---- converted to ----
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+----> ERROR:  column p.id does not exist
+LINE 1: SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11...
+               ^
+---------------------
+[1355692374.21] Error running :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+---- converted to ----
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+----> ERROR:  column p.id does not exist
+LINE 1: SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11...
+               ^
+---------------------
+[1355692374.26] Error running :
+SELECT   wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.ID IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type LIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts.ID, 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 0, 25
+---- converted to ----
+SELECT   wp_posts."ID" FROM wp_posts  WHERE 1=1  AND wp_posts."ID" IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type ILIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts."ID" , 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 25 OFFSET 0
+----> ERROR:  function field(bigint, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer) does not exist
+LINE 1: ... AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+---------------------
+[1355692425.8] Error running :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+---- converted to ----
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+----> ERROR:  column p.id does not exist
+LINE 1: SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11...
+               ^
+---------------------
+[1355692425.8] Error running :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+---- converted to ----
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+----> ERROR:  column p.id does not exist
+LINE 1: SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11...
+               ^
+---------------------
+[1355692425.85] Error running :
+SELECT   wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.ID IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type LIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts.ID, 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 0, 25
+---- converted to ----
+SELECT   wp_posts."ID" FROM wp_posts  WHERE 1=1  AND wp_posts."ID" IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type ILIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts."ID" , 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 25 OFFSET 0
+----> ERROR:  function field(bigint, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer) does not exist
+LINE 1: ... AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+---------------------
+[1355692516.23] Error running :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+---- converted to ----
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+----> ERROR:  column p.id does not exist
+LINE 1: SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11...
+               ^
+---------------------
+[1355692516.23] Error running :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+---- converted to ----
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+----> ERROR:  column p.id does not exist
+LINE 1: SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11...
+               ^
+---------------------
+[1355692516.27] Error running :
+SELECT   wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.ID IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type LIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts.ID, 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 0, 25
+---- converted to ----
+SELECT   wp_posts."ID" FROM wp_posts  WHERE 1=1  AND wp_posts."ID" IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type ILIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ( ,wp_posts."ID" , 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 25 OFFSET 0
+----> ERROR:  syntax error at or near "("
+LINE 1: ...tachment' AND (wp_posts.post_status = 'inherit')  ( ,wp_post...
+                                                             ^
+---------------------
+[1355692580.87] Error running :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+---- converted to ----
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+----> ERROR:  column p.id does not exist
+LINE 1: SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11...
+               ^
+---------------------
+[1355692580.88] Error running :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+---- converted to ----
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+----> ERROR:  column p.id does not exist
+LINE 1: SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11...
+               ^
+---------------------
+[1355692580.92] Error running :
+SELECT   wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.ID IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type LIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts.ID, 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 0, 25
+---- converted to ----
+SELECT   wp_posts."ID" FROM wp_posts  WHERE 1=1  AND wp_posts."ID" IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type ILIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts."ID" , 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 25 OFFSET 0
+----> ERROR:  function field(bigint, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer) does not exist
+LINE 1: ... AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+---------------------
+[1355692584.06] Error running :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+---- converted to ----
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+----> ERROR:  column p.id does not exist
+LINE 1: SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11...
+               ^
+---------------------
+[1355692584.06] Error running :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+---- converted to ----
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+----> ERROR:  column p.id does not exist
+LINE 1: SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11...
+               ^
+---------------------
+[1355692584.1] Error running :
+SELECT   wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.ID IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type LIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts.ID, 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 0, 25
+---- converted to ----
+SELECT   wp_posts."ID" FROM wp_posts  WHERE 1=1  AND wp_posts."ID" IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type ILIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts."ID" , 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 25 OFFSET 0
+----> ERROR:  function field(bigint, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer) does not exist
+LINE 1: ... AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+---------------------
+[1355692952] Error running :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+---- converted to ----
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+----> ERROR:  column p.id does not exist
+LINE 1: SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11...
+               ^
+---------------------
+[1355692952.01] Error running :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+---- converted to ----
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+----> ERROR:  column p.id does not exist
+LINE 1: SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11...
+               ^
+---------------------
+[1355692952.06] Error running :
+SELECT   wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.ID IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type LIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts.ID, 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 0, 25
+---- converted to ----
+SELECT   wp_posts."ID" FROM wp_posts  WHERE 1=1  AND wp_posts."ID" IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type ILIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts."ID" , 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 25 OFFSET 0
+----> ERROR:  function field(bigint, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer) does not exist
+LINE 1: ... AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+---------------------
+[1355692999.02] Error running :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+---- converted to ----
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+----> ERROR:  column p.id does not exist
+LINE 1: SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11...
+               ^
+---------------------
+[1355692999.02] Error running :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+---- converted to ----
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+----> ERROR:  column p.id does not exist
+LINE 1: SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11...
+               ^
+---------------------
+[1355693008.48] Error running :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+---- converted to ----
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+----> ERROR:  column p.id does not exist
+LINE 1: SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11...
+               ^
+---------------------
+[1355693008.48] Error running :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+---- converted to ----
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+----> ERROR:  column p.id does not exist
+LINE 1: SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11...
+               ^
+---------------------
+[1355693403.23] Error running :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-10-25 00:04:11' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+---- converted to ----
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-10-25 00:04:11' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+----> ERROR:  column p.id does not exist
+LINE 1: SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-10...
+               ^
+---------------------
+[1355693403.23] Error running :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-10-25 00:04:11' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+---- converted to ----
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-10-25 00:04:11' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+----> ERROR:  column p.id does not exist
+LINE 1: SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-10...
+               ^
+---------------------
+[1355693481.61] Error running :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+---- converted to ----
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+----> ERROR:  column p.id does not exist
+LINE 1: SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11...
+               ^
+---------------------
+[1355693481.61] Error running :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+---- converted to ----
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+----> ERROR:  column p.id does not exist
+LINE 1: SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11...
+               ^
+---------------------
+[1355693508.46] Error running :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+---- converted to ----
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+----> ERROR:  column p.id does not exist
+LINE 1: SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11...
+               ^
+---------------------
+[1355693508.47] Error running :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+---- converted to ----
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+----> ERROR:  column p.id does not exist
+LINE 1: SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11...
+               ^
+---------------------
+[1355693516.94] Error running :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+---- converted to ----
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+----> ERROR:  column p.id does not exist
+LINE 1: SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11...
+               ^
+---------------------
+[1355693516.94] Error running :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+---- converted to ----
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+----> ERROR:  column p.id does not exist
+LINE 1: SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11...
+               ^
+---------------------
+[1355693535.77] Error running :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+---- converted to ----
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+----> ERROR:  column p.id does not exist
+LINE 1: SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11...
+               ^
+---------------------
+[1355693535.77] Error running :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+---- converted to ----
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+----> ERROR:  column p.id does not exist
+LINE 1: SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11...
+               ^
+---------------------
+[1355693571.22] Error running :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+---- converted to ----
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+----> ERROR:  column p.id does not exist
+LINE 1: SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11...
+               ^
+---------------------
+[1355693571.23] Error running :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+---- converted to ----
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+----> ERROR:  column p.id does not exist
+LINE 1: SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11...
+               ^
+---------------------
+[1355693571.29] Error running :
+SELECT   wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.ID IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type LIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts.ID, 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 0, 25
+---- converted to ----
+SELECT   wp_posts."ID" FROM wp_posts  WHERE 1=1  AND wp_posts."ID" IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type ILIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts."ID" , 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 25 OFFSET 0
+----> ERROR:  function field(bigint, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer) does not exist
+LINE 1: ... AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+---------------------
+[1355693882.26] Error running :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+---- converted to ----
+SELECT id FROM wp_posts AS p  WHERE p.post_date < '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+----> ERROR:  column "id" does not exist
+LINE 1: SELECT id FROM wp_posts AS p  WHERE p.post_date < '2009-11-1...
+               ^
+---------------------
+[1355693882.26] Error running :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+---- converted to ----
+SELECT id FROM wp_posts AS p  WHERE p.post_date > '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+----> ERROR:  column "id" does not exist
+LINE 1: SELECT id FROM wp_posts AS p  WHERE p.post_date > '2009-11-1...
+               ^
+---------------------
+[1355693882.31] Error running :
+SELECT   wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.ID IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type LIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts.ID, 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 0, 25
+---- converted to ----
+SELECT   wp_posts."ID" FROM wp_posts  WHERE 1=1  AND wp_posts."ID" IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type ILIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts."ID" , 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 25 OFFSET 0
+----> ERROR:  function field(bigint, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer) does not exist
+LINE 1: ... AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+---------------------
+[1355693946.32] Error running :
+SELECT   wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.ID IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type LIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts.ID, 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 0, 25
+---- converted to ----
+SELECT   wp_posts."ID" FROM wp_posts  WHERE 1=1  AND wp_posts."ID" IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type ILIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts."ID" , 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 25 OFFSET 0
+----> ERROR:  function field(bigint, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer) does not exist
+LINE 1: ... AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+---------------------
+[1355694299.85] Error running :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+---- converted to ----
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date DESC LIMIT 1
+----> ERROR:  column p.id does not exist
+LINE 1: SELECT p.id FROM wp_posts AS p  WHERE p.post_date < '2009-11...
+               ^
+---------------------
+[1355694299.85] Error running :
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+---- converted to ----
+SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11-15 03:49:04' AND p.post_type = 'page' AND p.post_status = 'publish'  ORDER BY p.post_date ASC LIMIT 1
+----> ERROR:  column p.id does not exist
+LINE 1: SELECT p.id FROM wp_posts AS p  WHERE p.post_date > '2009-11...
+               ^
+---------------------
+[1355694324.85] Error running :
+SELECT   wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.ID IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type LIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts.ID, 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 0, 25
+---- converted to ----
+SELECT   wp_posts."ID" FROM wp_posts  WHERE 1=1  AND wp_posts."ID" IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type ILIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts."ID" , 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 25 OFFSET 0
+----> ERROR:  function field(bigint, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer) does not exist
+LINE 1: ... AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+---------------------
+[1355694618.61] Error running :
+SELECT   wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.ID IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type LIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts.ID, 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 0, 25
+---- converted to ----
+SELECT   wp_posts."ID" FROM wp_posts  WHERE 1=1  AND wp_posts."ID" IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type ILIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts."ID" , 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 25 OFFSET 0
+----> ERROR:  function field(bigint, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer) does not exist
+LINE 1: ... AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+---------------------
+[1355746015.69] Error running :
+SELECT   wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.ID IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type LIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts.ID, 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 0, 25
+---- converted to ----
+SELECT   wp_posts."ID" FROM wp_posts  WHERE 1=1  AND wp_posts."ID" IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type ILIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts."ID" , 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 25 OFFSET 0
+----> ERROR:  function field(bigint, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer) does not exist
+LINE 1: ... AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+---------------------
+[1355746031.34] Error running :
+SELECT   wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.ID IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type LIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts.ID, 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 0, 25
+---- converted to ----
+SELECT   wp_posts."ID" FROM wp_posts  WHERE 1=1  AND wp_posts."ID" IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type ILIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts."ID" , 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 25 OFFSET 0
+----> ERROR:  function field(bigint, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer) does not exist
+LINE 1: ... AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+---------------------
+[1355746497.12] Error running :
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.ID IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type LIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit' OR wp_posts.post_status = 'private')  ORDER BY FIELD( wp_posts.ID, 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) 
+---- converted to ----
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts."ID" IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type ILIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit' OR wp_posts.post_status = 'private')  ORDER BY FIELD( wp_posts."ID" , 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 )
+----> ERROR:  function field(bigint, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer) does not exist
+LINE 1: ...t' OR wp_posts.post_status = 'private')  ORDER BY FIELD( wp_...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+---------------------
+[1355750470.01] Error running :
+SELECT   wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.ID IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type LIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts.ID, 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 0, 25
+---- converted to ----
+SELECT   wp_posts."ID" FROM wp_posts  WHERE 1=1  AND wp_posts."ID" IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type ILIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts."ID" , 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 25 OFFSET 0
+----> ERROR:  function field(bigint, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer) does not exist
+LINE 1: ... AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+---------------------
+[1355750476.9] Error running :
+SELECT   wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.ID IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type LIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts.ID, 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 0, 25
+---- converted to ----
+SELECT   wp_posts."ID" FROM wp_posts  WHERE 1=1  AND wp_posts."ID" IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type ILIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts."ID" , 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 25 OFFSET 0
+----> ERROR:  function field(bigint, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer) does not exist
+LINE 1: ... AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+---------------------
+[1355750780.43] Error running :
+SELECT   wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.ID IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type LIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts.ID, 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 0, 25
+---- converted to ----
+SELECT   wp_posts."ID" FROM wp_posts  WHERE 1=1  AND wp_posts."ID" IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type ILIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts."ID" , 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 25 OFFSET 0
+----> ERROR:  function field(bigint, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer) does not exist
+LINE 1: ... AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+---------------------
+[1355750900.61] Error running :
+SELECT   wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.ID IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type LIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts.ID, 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 0, 25
+---- converted to ----
+SELECT   wp_posts."ID" FROM wp_posts  WHERE 1=1  AND wp_posts."ID" IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type ILIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts."ID" , 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 25 OFFSET 0
+----> ERROR:  function field(bigint, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer) does not exist
+LINE 1: ... AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+---------------------
+[1355750928.85] Error running :
+SELECT   wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.ID IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type LIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts.ID, 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 0, 25
+---- converted to ----
+SELECT   wp_posts."ID" FROM wp_posts  WHERE 1=1  AND wp_posts."ID" IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type ILIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts."ID" , 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 25 OFFSET 0
+----> ERROR:  function field(bigint, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer) does not exist
+LINE 1: ... AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+---------------------
+[1355751132.43] Error running :
+SELECT   wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.ID IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type LIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts.ID, 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 0, 25
+---- converted to ----
+SELECT   wp_posts."ID" FROM wp_posts  WHERE 1=1  AND wp_posts."ID" IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type ILIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts."ID" , 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 25 OFFSET 0
+----> ERROR:  function field(bigint, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer) does not exist
+LINE 1: ... AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+---------------------
+[1355751132.43] Error running :
+SELECT   wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.ID IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type LIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts.ID, 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 0, 25
+---- converted to ----
+SELECT   wp_posts."ID" FROM wp_posts  WHERE 1=1  AND wp_posts."ID" IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type ILIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts."ID" , 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 25 OFFSET 0
+----> ERROR:  function field(bigint, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer) does not exist
+LINE 1: ... AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+---------------------
+[1355751156.03] Error running :
+SELECT   wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.ID IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type LIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts.ID, 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 0, 25
+---- converted to ----
+SELECT   wp_posts."ID" FROM wp_posts  WHERE 1=1  AND wp_posts."ID" IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type ILIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts."ID" , 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 25 OFFSET 0
+----> ERROR:  function field(bigint, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer) does not exist
+LINE 1: ... AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+---------------------
+[1355751156.03] Error running :
+SELECT   wp_posts.ID FROM wp_posts  WHERE 1=1  AND wp_posts.ID IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type LIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts.ID, 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 0, 25
+---- converted to ----
+SELECT   wp_posts."ID" FROM wp_posts  WHERE 1=1  AND wp_posts."ID" IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type ILIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_posts."ID" , 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) LIMIT 25 OFFSET 0
+----> ERROR:  function field(bigint, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer) does not exist
+LINE 1: ... AND (wp_posts.post_status = 'inherit')  ORDER BY FIELD( wp_...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+---------------------
+[1355751974.81] Error running :
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.ID IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type LIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit' OR wp_posts.post_status = 'private')  ORDER BY FIELD( wp_posts.ID, 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 ) 
+---- converted to ----
+SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts."ID" IN (189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166) AND (wp_posts.post_mime_type ILIKE 'image/%')  AND wp_posts.post_type = 'attachment' AND (wp_posts.post_status = 'inherit' OR wp_posts.post_status = 'private')  ORDER BY FIELD( wp_posts."ID" , 189,190,188,186,187,185,179,180,181,182,183,184,178,176,177,175,173,174,167,169,168,171,170,172,166 )
+----> ERROR:  function field(bigint, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer) does not exist
+LINE 1: ...t' OR wp_posts.post_status = 'private')  ORDER BY FIELD( wp_...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+---------------------

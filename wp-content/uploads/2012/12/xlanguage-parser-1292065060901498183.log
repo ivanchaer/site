@@ -1,0 +1,43 @@
+<log><epoch>1355689884</epoch><time>Sun Dec 16 20:31:24 2012</time><request>http://heroku:8888/fotos/africa/</request><error>Mismatched tag</error><lang>en</lang><precontent> /&gt;
+  &lt;a href=&quot;/fotos/&quot;&gt;« Voltar para página de fotos&lt;/a&gt;&lt;br /&gt;
+&lt;/span&gt;&lt;br /&gt;
+&lt;span lang=&quot;en&quot;&gt;&lt;/p&gt;</precontent><postcontent>
+&lt;p&gt;  &lt;a href=&quot;/fotos/&quot;&gt;« Back to main page of albums&lt;/a&gt;&lt;br /&gt;
+&lt;/span&gt;&lt;br /&gt;
+&lt;span lang=&quot;it&quot;&gt;&lt;/p&gt;
+</postcontent></log><log><epoch>1355689947</epoch><time>Sun Dec 16 20:32:27 2012</time><request>http://heroku:8888/fotos/africa/</request><error>Mismatched tag</error><lang>en</lang><precontent> /&gt;
+  &lt;a href=&quot;/fotos/&quot;&gt;« Voltar para página de fotos&lt;/a&gt;&lt;br /&gt;
+&lt;/span&gt;&lt;br /&gt;
+&lt;span lang=&quot;en&quot;&gt;&lt;/p&gt;</precontent><postcontent>
+&lt;p&gt;  &lt;a href=&quot;/fotos/&quot;&gt;« Back to main page of albums&lt;/a&gt;&lt;br /&gt;
+&lt;/span&gt;&lt;br /&gt;
+&lt;span lang=&quot;it&quot;&gt;&lt;/p&gt;
+</postcontent></log><log><epoch>1355752438</epoch><time>Mon Dec 17 13:53:58 2012</time><request>http://heroku:8888/wp-admin/admin.php?page=wpcf7&amp;post=148</request><error>XML_ERR_NAME_REQUIRED</error><lang>en</lang><precontent>&gt;[submit &quot;Inviare&quot;]&lt;/span&gt;&lt;span lang=&quot;fr&quot;&gt;[submit &quot;Envoyer&quot;]&lt;/span&gt;&lt;/p&gt;
+[your-subject]
+[your-name] &lt;</precontent><postcontent>[your-email]&gt;
+From: [your-name] &lt;[your-email]&gt;
+Subject: [your-subject]
+
+Message Body:
+[your-mess</postcontent></log><log><epoch>1355752438</epoch><time>Mon Dec 17 13:53:58 2012</time><request>http://heroku:8888/wp-admin/admin.php?page=wpcf7&amp;post=148</request><error>XML_ERR_NAME_REQUIRED</error><lang>pt-br</lang><precontent>&gt;[submit &quot;Inviare&quot;]&lt;/span&gt;&lt;span lang=&quot;fr&quot;&gt;[submit &quot;Envoyer&quot;]&lt;/span&gt;&lt;/p&gt;
+[your-subject]
+[your-name] &lt;</precontent><postcontent>[your-email]&gt;
+From: [your-name] &lt;[your-email]&gt;
+Subject: [your-subject]
+
+Message Body:
+[your-mess</postcontent></log><log><epoch>1355752438</epoch><time>Mon Dec 17 13:53:58 2012</time><request>http://heroku:8888/wp-admin/admin.php?page=wpcf7&amp;post=148</request><error>XML_ERR_NAME_REQUIRED</error><lang>it</lang><precontent>&gt;[submit &quot;Inviare&quot;]&lt;/span&gt;&lt;span lang=&quot;fr&quot;&gt;[submit &quot;Envoyer&quot;]&lt;/span&gt;&lt;/p&gt;
+[your-subject]
+[your-name] &lt;</precontent><postcontent>[your-email]&gt;
+From: [your-name] &lt;[your-email]&gt;
+Subject: [your-subject]
+
+Message Body:
+[your-mess</postcontent></log><log><epoch>1355752438</epoch><time>Mon Dec 17 13:53:58 2012</time><request>http://heroku:8888/wp-admin/admin.php?page=wpcf7&amp;post=148</request><error>XML_ERR_NAME_REQUIRED</error><lang>fr</lang><precontent>&gt;[submit &quot;Inviare&quot;]&lt;/span&gt;&lt;span lang=&quot;fr&quot;&gt;[submit &quot;Envoyer&quot;]&lt;/span&gt;&lt;/p&gt;
+[your-subject]
+[your-name] &lt;</precontent><postcontent>[your-email]&gt;
+From: [your-name] &lt;[your-email]&gt;
+Subject: [your-subject]
+
+Message Body:
+[your-mess</postcontent></log>

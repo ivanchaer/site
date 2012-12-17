@@ -190,6 +190,9 @@
 		return $data;
 	}
 	
+	
+	
+	
 	function pg4wp_rewrite( $sql)
 	{
 		global $wpdb;
@@ -203,6 +206,13 @@
 		
 		if( 0 === strpos($sql, 'SELECT'))
 		{
+		  //if( false !== strpos($sql, 'ORDER BY FIELD'))
+		  //$sql = preg_replace('/ORDER BY FIELD(.+?)$)/', '', $sql);
+		  
+		  if( false !== strpos($sql, 'SELECT p.id')) {
+		  $sql = preg_replace('/SELECT p.id/', 'SELECT ID', $sql);
+		  unset( $attr['orderby'] );
+		  }
 			$logto = 'SELECT';
 			// SQL_CALC_FOUND_ROWS doesn't exist in PostgreSQL but it's needed for correct paging
 			if( false !== strpos($sql, 'SQL_CALC_FOUND_ROWS'))

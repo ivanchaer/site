@@ -54,6 +54,11 @@ define('SECURE_AUTH_SALT', 'put your unique phrase here');
 define('LOGGED_IN_SALT',   'put your unique phrase here');
 define('NONCE_SALT',       'put your unique phrase here');
 
+
+#define('WP_HOME','http://heroku:8888');
+#define('WP_SITEURL','http://heroku:8888');
+
+
 /**#@-*/
 
 /**
