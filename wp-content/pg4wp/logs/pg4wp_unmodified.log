@@ -34856,3 +34856,1667 @@
 ---------------------
 [1355777698.94] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
 ---------------------
+[1355777749.2] SET NAMES 'utf8'
+---------------------
+[1355777749.2] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1355777749.51] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1355777749.51] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1355777749.52] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1355777749.52] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1355777749.52] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1355777749.52] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1355777758.66] SET NAMES 'utf8'
+---------------------
+[1355777758.66] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1355777758.9] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1355777758.9] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1355777758.9] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1355777758.9] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1355777758.9] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1355777758.9] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1355777809.2] SET NAMES 'utf8'
+---------------------
+[1355777809.21] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1355777809.48] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1355777809.48] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1355777809.48] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1355777809.48] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1355777809.48] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1355777809.49] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1355777818.65] SET NAMES 'utf8'
+---------------------
+[1355777818.66] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1355777818.93] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1355777818.93] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1355777818.93] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1355777818.93] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1355777818.93] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1355777818.93] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1355777869.21] SET NAMES 'utf8'
+---------------------
+[1355777869.22] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1355777869.49] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1355777869.49] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1355777869.49] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1355777869.49] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1355777869.49] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1355777869.49] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1355777878.67] SET NAMES 'utf8'
+---------------------
+[1355777878.68] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1355777878.99] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1355777878.99] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1355777879] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1355777879] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1355777879] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1355777879] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1355777929.24] SET NAMES 'utf8'
+---------------------
+[1355777929.25] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1355777929.56] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1355777929.56] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1355777929.57] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1355777929.57] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1355777929.57] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1355777929.57] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1355777938.67] SET NAMES 'utf8'
+---------------------
+[1355777938.68] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1355777938.97] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1355777938.97] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1355777938.97] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1355777938.97] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1355777938.97] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1355777938.98] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1355777989.23] SET NAMES 'utf8'
+---------------------
+[1355777989.24] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1355777989.5] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1355777989.5] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1355777989.5] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1355777989.5] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1355777989.5] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1355777989.5] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1355777998.68] SET NAMES 'utf8'
+---------------------
+[1355777998.69] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1355777998.97] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1355777998.97] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1355777998.97] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1355777998.97] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1355777998.97] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1355777998.98] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1357014016.18] SET NAMES 'utf8'
+---------------------
+[1357014016.2] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1357014016.63] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1357014016.64] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1357014016.64] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1357014016.64] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1357014016.64] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1357014016.64] SELECT option_value FROM wp_options WHERE option_name = '_transient_timeout_doing_cron' LIMIT 1
+---------------------
+[1357014016.64] SELECT autoload FROM wp_options WHERE option_name = '_transient_doing_cron'
+---------------------
+[1357014016.64] SELECT autoload FROM wp_options WHERE option_name = '_transient_timeout_doing_cron'
+---------------------
+[1357014016.65] SELECT option_value FROM wp_options WHERE option_name = '_transient_doing_cron' LIMIT 1
+---------------------
+[1357014016.67] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1357014016.7] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (133)
+---------------------
+[1357014029.09] SET NAMES 'utf8'
+---------------------
+[1357014029.1] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1357014029.34] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1357014029.35] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1357014029.35] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1357014029.35] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1357014029.35] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1357014029.35] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1357014029.37] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (133)
+---------------------
+[1357014036.65] SET NAMES 'utf8'
+---------------------
+[1357014036.65] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1357014036.91] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1357014036.91] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1357014036.91] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1357014036.91] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1357014036.91] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1357014036.91] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1357014036.93] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (252)
+---------------------
+[1357014036.94] SELECT user_id, meta_key, meta_value FROM wp_usermeta WHERE user_id IN (1)
+---------------------
+[1357014039.11] SET NAMES 'utf8'
+---------------------
+[1357014039.12] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1357014039.37] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1357014039.37] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1357014039.37] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1357014039.37] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1357014039.37] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1357014039.37] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1357014039.4] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (5)
+---------------------
+[1357014042.39] SET NAMES 'utf8'
+---------------------
+[1357014042.39] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1357014042.64] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1357014042.64] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1357014042.64] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1357014042.65] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1357014042.65] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1357014042.65] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1357014042.67] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (5)
+---------------------
+[1357014046.44] SET NAMES 'utf8'
+---------------------
+[1357014046.44] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1357014046.69] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1357014046.69] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1357014046.69] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1357014046.69] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1357014046.69] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1357014046.69] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1357014046.71] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (5)
+---------------------
+[1357014067.41] SET NAMES 'utf8'
+---------------------
+[1357014067.42] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1357014067.68] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1357014067.68] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1357014067.68] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1357014067.68] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1357014067.68] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1357014067.69] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1357014208.01] SET NAMES 'utf8'
+---------------------
+[1357014208.01] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1357014208.26] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1357014208.26] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1357014208.26] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1357014208.26] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1357014208.26] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1357014208.32] SET NAMES 'utf8'
+---------------------
+[1357014208.33] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1357014208.61] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1357014208.61] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1357014208.61] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1357014208.61] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1357014208.61] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1357014208.62] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1357014208.69] SELECT option_value FROM wp_options WHERE option_name = '_transient_doing_cron' LIMIT 1
+---------------------
+[1357014208.78] SELECT option_value FROM wp_options WHERE option_name = '_transient_doing_cron' LIMIT 1
+---------------------
+[1357014208.82] SELECT autoload FROM wp_options WHERE option_name = '_site_transient_theme_roots'
+---------------------
+[1357014208.82] DELETE FROM wp_options WHERE option_name = '_site_transient_theme_roots'
+---------------------
+[1357014208.82] SELECT autoload FROM wp_options WHERE option_name = '_site_transient_timeout_theme_roots'
+---------------------
+[1357014208.82] DELETE FROM wp_options WHERE option_name = '_site_transient_timeout_theme_roots'
+---------------------
+[1357014208.82] SELECT option_value FROM wp_options WHERE option_name = '_site_transient_theme_roots' LIMIT 1
+---------------------
+[1357014208.83] SELECT option_value FROM wp_options WHERE option_name = '_site_transient_timeout_theme_roots' LIMIT 1
+---------------------
+[1357014208.84] SELECT option_value FROM wp_options WHERE option_name = '_transient_doing_cron' LIMIT 1
+---------------------
+[1357014208.88] SELECT post_id FROM wp_postmeta WHERE meta_key = '_wp_trash_meta_time' AND meta_value < '1354422208'
+---------------------
+[1357014208.88] SELECT comment_id FROM wp_commentmeta WHERE meta_key = '_wp_trash_meta_time' AND meta_value < '1354422208'
+---------------------
+[1357014208.88] SELECT option_value FROM wp_options WHERE option_name = '_transient_doing_cron' LIMIT 1
+---------------------
+[1357014208.93] SELECT option_value FROM wp_options WHERE option_name = '_transient_doing_cron' LIMIT 1
+---------------------
+[1357014208.94] SELECT option_value FROM wp_options WHERE option_name = '_transient_doing_cron' LIMIT 1
+---------------------
+[1357014208.94] SELECT autoload FROM wp_options WHERE option_name = '_transient_doing_cron'
+---------------------
+[1357014208.94] DELETE FROM wp_options WHERE option_name = '_transient_doing_cron'
+---------------------
+[1357014208.94] SELECT autoload FROM wp_options WHERE option_name = '_transient_timeout_doing_cron'
+---------------------
+[1357014208.95] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1357014208.97] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (252)
+---------------------
+[1357014208.97] SELECT user_id, meta_key, meta_value FROM wp_usermeta WHERE user_id IN (1)
+---------------------
+[1357014209.9] SET NAMES 'utf8'
+---------------------
+[1357014209.91] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1357014210.2] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1357014210.2] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1357014210.2] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1357014210.2] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1357014210.21] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1357014210.21] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1357014210.24] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (5)
+---------------------
+[1357014210.3] SET NAMES 'utf8'
+---------------------
+[1357014210.31] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1357014210.59] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1357014210.59] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1357014210.59] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1357014210.59] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1357014210.6] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1357014210.6] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1357014210.62] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (5)
+---------------------
+[1357014210.65] SELECT user_id, meta_key, meta_value FROM wp_usermeta WHERE user_id IN (1)
+---------------------
+[1357014210.65] SELECT t.*, tt.* FROM wp_terms AS t INNER JOIN wp_term_taxonomy AS tt ON tt.term_id = t.term_id INNER JOIN wp_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('post_tag') AND tr.object_id IN (5) ORDER BY t.name ASC
+---------------------
+[1357014210.67] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (133)
+---------------------
+[1357014210.67] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (132)
+---------------------
+[1357014210.67] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (146)
+---------------------
+[1357014210.67] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (7)
+---------------------
+[1357014210.67] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (37)
+---------------------
+[1357014210.67] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (41)
+---------------------
+[1357014210.93] SET NAMES 'utf8'
+---------------------
+[1357014210.94] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1357014211.18] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1357014211.18] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1357014211.18] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1357014211.19] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1357014211.19] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1357014211.19] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1357014211.21] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (7)
+---------------------
+[1357014211.26] SET NAMES 'utf8'
+---------------------
+[1357014211.27] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1357014211.52] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1357014211.52] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1357014211.52] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1357014211.52] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1357014211.52] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1357014211.53] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1357014211.55] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (7)
+---------------------
+[1357014211.58] SELECT user_id, meta_key, meta_value FROM wp_usermeta WHERE user_id IN (1)
+---------------------
+[1357014211.58] SELECT t.*, tt.* FROM wp_terms AS t INNER JOIN wp_term_taxonomy AS tt ON tt.term_id = t.term_id INNER JOIN wp_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('post_tag') AND tr.object_id IN (7) ORDER BY t.name ASC
+---------------------
+[1357014211.59] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (133)
+---------------------
+[1357014211.59] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (5)
+---------------------
+[1357014211.59] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (132)
+---------------------
+[1357014211.59] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (146)
+---------------------
+[1357014211.59] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (37)
+---------------------
+[1357014211.6] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (41)
+---------------------
+[1357014379.54] SET NAMES 'utf8'
+---------------------
+[1357014379.55] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1357014379.79] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1357014379.79] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1357014379.79] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1357014379.8] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1357014379.8] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1357014379.8] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1357014379.82] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (252)
+---------------------
+[1357014379.82] SELECT user_id, meta_key, meta_value FROM wp_usermeta WHERE user_id IN (1)
+---------------------
+[1357041160.19] SET NAMES 'utf8'
+---------------------
+[1357041160.22] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1357041160.63] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1357041160.64] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1357041160.64] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1357041160.64] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1357041160.64] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1357041160.64] SELECT option_value FROM wp_options WHERE option_name = '_transient_timeout_doing_cron' LIMIT 1
+---------------------
+[1357041160.64] SELECT autoload FROM wp_options WHERE option_name = '_transient_doing_cron'
+---------------------
+[1357041160.65] SELECT autoload FROM wp_options WHERE option_name = '_transient_timeout_doing_cron'
+---------------------
+[1357041160.65] SELECT option_value FROM wp_options WHERE option_name = '_transient_doing_cron' LIMIT 1
+---------------------
+[1357041160.72] SET NAMES 'utf8'
+---------------------
+[1357041160.73] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1357041160.98] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1357041160.98] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1357041160.98] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1357041160.99] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1357041160.99] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1357041160.99] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1357041161.05] SELECT option_value FROM wp_options WHERE option_name = '_transient_doing_cron' LIMIT 1
+---------------------
+[1357041161.13] SELECT option_value FROM wp_options WHERE option_name = '_transient_doing_cron' LIMIT 1
+---------------------
+[1357041161.18] SELECT autoload FROM wp_options WHERE option_name = '_site_transient_theme_roots'
+---------------------
+[1357041161.18] DELETE FROM wp_options WHERE option_name = '_site_transient_theme_roots'
+---------------------
+[1357041161.18] SELECT autoload FROM wp_options WHERE option_name = '_site_transient_timeout_theme_roots'
+---------------------
+[1357041161.18] DELETE FROM wp_options WHERE option_name = '_site_transient_timeout_theme_roots'
+---------------------
+[1357041161.18] SELECT option_value FROM wp_options WHERE option_name = '_site_transient_theme_roots' LIMIT 1
+---------------------
+[1357041161.18] SELECT option_value FROM wp_options WHERE option_name = '_site_transient_timeout_theme_roots' LIMIT 1
+---------------------
+[1357041161.19] SELECT option_value FROM wp_options WHERE option_name = '_transient_doing_cron' LIMIT 1
+---------------------
+[1357041161.23] SELECT post_id FROM wp_postmeta WHERE meta_key = '_wp_trash_meta_time' AND meta_value < '1354449161'
+---------------------
+[1357041161.24] SELECT comment_id FROM wp_commentmeta WHERE meta_key = '_wp_trash_meta_time' AND meta_value < '1354449161'
+---------------------
+[1357041161.24] SELECT option_value FROM wp_options WHERE option_name = '_transient_doing_cron' LIMIT 1
+---------------------
+[1357041161.24] SELECT option_value FROM wp_options WHERE option_name = '_transient_doing_cron' LIMIT 1
+---------------------
+[1357041161.24] SELECT autoload FROM wp_options WHERE option_name = '_transient_doing_cron'
+---------------------
+[1357041161.24] DELETE FROM wp_options WHERE option_name = '_transient_doing_cron'
+---------------------
+[1357041161.24] SELECT autoload FROM wp_options WHERE option_name = '_transient_timeout_doing_cron'
+---------------------
+[1357041161.26] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1357041161.29] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (252)
+---------------------
+[1357041161.3] SELECT user_id, meta_key, meta_value FROM wp_usermeta WHERE user_id IN (1)
+---------------------
+[1357041168.46] SET NAMES 'utf8'
+---------------------
+[1357041168.47] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1357041168.74] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1357041168.74] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1357041168.74] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1357041168.74] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1357041168.74] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1357041168.74] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1357041168.77] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (5)
+---------------------
+[1357041168.84] SET NAMES 'utf8'
+---------------------
+[1357041168.85] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1357041169.12] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1357041169.12] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1357041169.12] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1357041169.12] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1357041169.12] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1357041169.12] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1357041169.15] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (5)
+---------------------
+[1357041169.18] SELECT user_id, meta_key, meta_value FROM wp_usermeta WHERE user_id IN (1)
+---------------------
+[1357041169.19] SELECT t.*, tt.* FROM wp_terms AS t INNER JOIN wp_term_taxonomy AS tt ON tt.term_id = t.term_id INNER JOIN wp_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('post_tag') AND tr.object_id IN (5) ORDER BY t.name ASC
+---------------------
+[1357041169.2] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (133)
+---------------------
+[1357041169.2] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (132)
+---------------------
+[1357041169.2] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (146)
+---------------------
+[1357041169.21] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (7)
+---------------------
+[1357041169.21] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (37)
+---------------------
+[1357041169.21] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (41)
+---------------------
+[1357041169.55] SET NAMES 'utf8'
+---------------------
+[1357041169.56] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1357041169.84] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1357041169.84] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1357041169.84] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1357041169.85] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1357041169.85] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1357041169.85] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1357041169.88] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (7)
+---------------------
+[1357041169.93] SET NAMES 'utf8'
+---------------------
+[1357041169.94] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1357041170.2] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1357041170.2] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1357041170.21] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1357041170.21] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1357041170.21] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1357041170.21] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1357041170.23] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (7)
+---------------------
+[1357041170.26] SELECT user_id, meta_key, meta_value FROM wp_usermeta WHERE user_id IN (1)
+---------------------
+[1357041170.26] SELECT t.*, tt.* FROM wp_terms AS t INNER JOIN wp_term_taxonomy AS tt ON tt.term_id = t.term_id INNER JOIN wp_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('post_tag') AND tr.object_id IN (7) ORDER BY t.name ASC
+---------------------
+[1357041170.27] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (133)
+---------------------
+[1357041170.28] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (5)
+---------------------
+[1357041170.28] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (132)
+---------------------
+[1357041170.28] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (146)
+---------------------
+[1357041170.28] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (37)
+---------------------
+[1357041170.28] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (41)
+---------------------
+[1357047154.6] SET NAMES 'utf8'
+---------------------
+[1357047154.61] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1357047154.93] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1357047154.94] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1357047154.94] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1357047154.94] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1357047154.94] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1357047154.94] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1357047154.98] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (7)
+---------------------
+[1357047155.04] SET NAMES 'utf8'
+---------------------
+[1357047155.05] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1357047155.31] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1357047155.31] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1357047155.31] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1357047155.32] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1357047155.32] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1357047155.32] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1357047155.34] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (7)
+---------------------
+[1357047155.37] SELECT user_id, meta_key, meta_value FROM wp_usermeta WHERE user_id IN (1)
+---------------------
+[1357047155.38] SELECT t.*, tt.* FROM wp_terms AS t INNER JOIN wp_term_taxonomy AS tt ON tt.term_id = t.term_id INNER JOIN wp_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('post_tag') AND tr.object_id IN (7) ORDER BY t.name ASC
+---------------------
+[1357047155.39] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (133)
+---------------------
+[1357047155.39] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (5)
+---------------------
+[1357047155.39] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (132)
+---------------------
+[1357047155.39] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (146)
+---------------------
+[1357047155.39] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (37)
+---------------------
+[1357047155.39] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (41)
+---------------------
+[1357047155.67] SET NAMES 'utf8'
+---------------------
+[1357047155.68] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1357047155.97] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1357047155.97] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1357047155.97] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1357047155.97] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1357047155.97] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1357047155.98] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1357047156.01] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (37)
+---------------------
+[1357047156.07] SET NAMES 'utf8'
+---------------------
+[1357047156.08] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1357047156.34] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1357047156.34] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1357047156.34] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1357047156.34] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1357047156.34] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1357047156.34] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1357047156.37] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (37)
+---------------------
+[1357047156.4] SELECT user_id, meta_key, meta_value FROM wp_usermeta WHERE user_id IN (1)
+---------------------
+[1357047156.4] SELECT t.*, tt.* FROM wp_terms AS t INNER JOIN wp_term_taxonomy AS tt ON tt.term_id = t.term_id INNER JOIN wp_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('post_tag') AND tr.object_id IN (37) ORDER BY t.name ASC
+---------------------
+[1357047156.41] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (133)
+---------------------
+[1357047156.41] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (5)
+---------------------
+[1357047156.42] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (132)
+---------------------
+[1357047156.42] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (146)
+---------------------
+[1357047156.42] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (7)
+---------------------
+[1357047156.42] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (41)
+---------------------
+[1357047163.24] SET NAMES 'utf8'
+---------------------
+[1357047163.25] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1357047163.6] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1357047163.61] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1357047163.61] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1357047163.61] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1357047163.61] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1357047163.61] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1357047163.64] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (37)
+---------------------
+[1357047163.71] SET NAMES 'utf8'
+---------------------
+[1357047163.72] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1357047163.97] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1357047163.97] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1357047163.97] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1357047163.97] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1357047163.97] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1357047163.97] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1357047164] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (37)
+---------------------
+[1357047164.02] SELECT user_id, meta_key, meta_value FROM wp_usermeta WHERE user_id IN (1)
+---------------------
+[1357047164.03] SELECT t.*, tt.* FROM wp_terms AS t INNER JOIN wp_term_taxonomy AS tt ON tt.term_id = t.term_id INNER JOIN wp_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('post_tag') AND tr.object_id IN (37) ORDER BY t.name ASC
+---------------------
+[1357047164.04] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (133)
+---------------------
+[1357047164.04] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (5)
+---------------------
+[1357047164.04] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (132)
+---------------------
+[1357047164.04] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (146)
+---------------------
+[1357047164.04] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (7)
+---------------------
+[1357047164.04] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (41)
+---------------------
+[1357047164.31] SET NAMES 'utf8'
+---------------------
+[1357047164.32] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1357047164.59] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1357047164.59] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1357047164.59] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1357047164.59] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1357047164.59] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1357047164.6] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1357047164.62] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (41)
+---------------------
+[1357047164.68] SET NAMES 'utf8'
+---------------------
+[1357047164.69] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1357047164.97] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1357047164.97] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1357047164.97] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1357047164.97] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1357047164.97] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1357047164.97] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1357047164.99] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (41)
+---------------------
+[1357047165.02] SELECT user_id, meta_key, meta_value FROM wp_usermeta WHERE user_id IN (1)
+---------------------
+[1357047165.03] SELECT t.*, tt.* FROM wp_terms AS t INNER JOIN wp_term_taxonomy AS tt ON tt.term_id = t.term_id INNER JOIN wp_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('post_tag') AND tr.object_id IN (41) ORDER BY t.name ASC
+---------------------
+[1357047165.04] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (133)
+---------------------
+[1357047165.04] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (5)
+---------------------
+[1357047165.04] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (132)
+---------------------
+[1357047165.04] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (146)
+---------------------
+[1357047165.04] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (7)
+---------------------
+[1357047165.04] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (37)
+---------------------
+[1357047165.06] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (148)
+---------------------
+[1357047170.13] SET NAMES 'utf8'
+---------------------
+[1357047170.14] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1357047170.4] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1357047170.4] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1357047170.41] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1357047170.41] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1357047170.41] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1357047170.41] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1357047170.44] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (132)
+---------------------
+[1357047170.47] SELECT user_id, meta_key, meta_value FROM wp_usermeta WHERE user_id IN (1)
+---------------------
+[1357047170.48] SELECT t.*, tt.* FROM wp_terms AS t INNER JOIN wp_term_taxonomy AS tt ON tt.term_id = t.term_id INNER JOIN wp_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('post_tag') AND tr.object_id IN (132) ORDER BY t.name ASC
+---------------------
+[1357047170.49] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (133)
+---------------------
+[1357047170.49] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (5)
+---------------------
+[1357047170.49] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (146)
+---------------------
+[1357047170.49] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (7)
+---------------------
+[1357047170.49] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (37)
+---------------------
+[1357047170.49] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (41)
+---------------------
+[1357047170.53] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (210,215,220,225,230,235,211,216,221,226,231,236,240,212,217,222,227,232,237,241,244,213,218,223,228,233,238,242,214,219,224,229,234,239,243,202,203,204,205,206,207,208,209)
+---------------------
+[1357047171.13] SET NAMES 'utf8'
+---------------------
+[1357047171.13] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1357047171.4] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1357047171.4] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1357047171.4] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1357047171.4] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1357047171.4] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1357047171.4] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1357047171.42] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (133)
+---------------------
+[1357047171.48] SET NAMES 'utf8'
+---------------------
+[1357047171.48] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1357047171.71] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1357047171.71] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1357047171.71] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1357047171.71] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1357047171.71] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1357047171.71] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1357047171.74] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (133)
+---------------------
+[1357047171.76] SELECT user_id, meta_key, meta_value FROM wp_usermeta WHERE user_id IN (1)
+---------------------
+[1357047171.77] SELECT t.*, tt.* FROM wp_terms AS t INNER JOIN wp_term_taxonomy AS tt ON tt.term_id = t.term_id INNER JOIN wp_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('post_tag') AND tr.object_id IN (133) ORDER BY t.name ASC
+---------------------
+[1357047171.78] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (5)
+---------------------
+[1357047171.78] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (132)
+---------------------
+[1357047171.78] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (146)
+---------------------
+[1357047171.78] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (7)
+---------------------
+[1357047171.78] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (37)
+---------------------
+[1357047171.78] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (41)
+---------------------
+[1357047171.8] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,181,182,183,184,185,186,187,188,189,190)
+---------------------
+[1357047195.45] SET NAMES 'utf8'
+---------------------
+[1357047195.46] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1357047195.72] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1357047195.72] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1357047195.72] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1357047195.72] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1357047195.72] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1357047195.72] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1357047195.75] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (37)
+---------------------
+[1357047195.78] SELECT user_id, meta_key, meta_value FROM wp_usermeta WHERE user_id IN (1)
+---------------------
+[1357047195.78] SELECT t.*, tt.* FROM wp_terms AS t INNER JOIN wp_term_taxonomy AS tt ON tt.term_id = t.term_id INNER JOIN wp_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('post_tag') AND tr.object_id IN (37) ORDER BY t.name ASC
+---------------------
+[1357047195.79] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (133)
+---------------------
+[1357047195.79] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (5)
+---------------------
+[1357047195.8] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (132)
+---------------------
+[1357047195.8] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (146)
+---------------------
+[1357047195.8] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (7)
+---------------------
+[1357047195.8] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (41)
+---------------------
+[1357047196.02] SET NAMES 'utf8'
+---------------------
+[1357047196.02] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1357047196.3] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1357047196.3] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1357047196.3] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1357047196.3] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1357047196.31] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1357047196.31] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1357047196.34] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (41)
+---------------------
+[1357047196.39] SET NAMES 'utf8'
+---------------------
+[1357047196.4] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1357047196.66] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1357047196.66] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1357047196.66] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1357047196.66] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1357047196.66] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1357047196.66] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1357047196.68] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (41)
+---------------------
+[1357047196.71] SELECT user_id, meta_key, meta_value FROM wp_usermeta WHERE user_id IN (1)
+---------------------
+[1357047196.72] SELECT t.*, tt.* FROM wp_terms AS t INNER JOIN wp_term_taxonomy AS tt ON tt.term_id = t.term_id INNER JOIN wp_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('post_tag') AND tr.object_id IN (41) ORDER BY t.name ASC
+---------------------
+[1357047196.73] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (133)
+---------------------
+[1357047196.73] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (5)
+---------------------
+[1357047196.73] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (132)
+---------------------
+[1357047196.73] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (146)
+---------------------
+[1357047196.73] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (7)
+---------------------
+[1357047196.73] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (37)
+---------------------
+[1357047196.75] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (148)
+---------------------
+[1357047198.11] SET NAMES 'utf8'
+---------------------
+[1357047198.11] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1357047198.4] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1357047198.4] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1357047198.4] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1357047198.4] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1357047198.4] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1357047198.4] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1357047198.43] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (133)
+---------------------
+[1357047198.46] SELECT user_id, meta_key, meta_value FROM wp_usermeta WHERE user_id IN (1)
+---------------------
+[1357047198.47] SELECT t.*, tt.* FROM wp_terms AS t INNER JOIN wp_term_taxonomy AS tt ON tt.term_id = t.term_id INNER JOIN wp_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('post_tag') AND tr.object_id IN (133) ORDER BY t.name ASC
+---------------------
+[1357047198.48] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (5)
+---------------------
+[1357047198.48] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (132)
+---------------------
+[1357047198.48] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (146)
+---------------------
+[1357047198.48] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (7)
+---------------------
+[1357047198.48] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (37)
+---------------------
+[1357047198.48] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (41)
+---------------------
+[1357047198.52] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,181,182,183,184,185,186,187,188,189,190)
+---------------------
+[1357047198.93] SET NAMES 'utf8'
+---------------------
+[1357047198.94] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1357047199.21] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1357047199.21] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1357047199.21] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1357047199.21] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1357047199.21] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1357047199.22] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1357047199.24] SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.post_name = 'videos' AND wp_posts.post_type = 'post'  ORDER BY wp_posts.post_date DESC
+---------------------
+[1357047199.26] SELECT option_value FROM wp_options WHERE option_name = 'blueblack_ads_display' LIMIT 1
+---------------------
+[1357047199.26] SELECT option_value FROM wp_options WHERE option_name = 'blueblack_ad_image_one' LIMIT 1
+---------------------
+[1357047199.26] SELECT option_value FROM wp_options WHERE option_name = 'blueblack_ad_url_one' LIMIT 1
+---------------------
+[1357047199.26] SELECT option_value FROM wp_options WHERE option_name = 'blueblack_ad_image_two' LIMIT 1
+---------------------
+[1357047199.26] SELECT option_value FROM wp_options WHERE option_name = 'blueblack_ad_url_two' LIMIT 1
+---------------------
+[1357047199.26] SELECT option_value FROM wp_options WHERE option_name = 'blueblack_banner_display' LIMIT 1
+---------------------
+[1357047199.26] SELECT option_value FROM wp_options WHERE option_name = 'blueblack_banner_url' LIMIT 1
+---------------------
+[1357047199.26] SELECT option_value FROM wp_options WHERE option_name = 'blueblack_banner_image' LIMIT 1
+---------------------
+[1357047199.28] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (133)
+---------------------
+[1357047199.28] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (5)
+---------------------
+[1357047199.28] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (132)
+---------------------
+[1357047199.28] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (146)
+---------------------
+[1357047199.28] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (7)
+---------------------
+[1357047199.28] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (37)
+---------------------
+[1357047199.28] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (41)
+---------------------
+[1357047199.29] SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.post_name = 'videos' AND wp_posts.post_type = 'post'  ORDER BY wp_posts.post_date DESC
+---------------------
+[1357047234.09] SET NAMES 'utf8'
+---------------------
+[1357047234.1] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1357047234.35] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1357047234.35] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1357047234.35] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1357047234.36] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1357047234.36] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1357047234.36] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1357047234.38] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (41)
+---------------------
+[1357047234.44] SET NAMES 'utf8'
+---------------------
+[1357047234.45] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1357047234.72] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1357047234.72] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1357047234.72] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1357047234.72] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1357047234.72] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1357047234.72] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1357047234.74] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (41)
+---------------------
+[1357047234.77] SELECT user_id, meta_key, meta_value FROM wp_usermeta WHERE user_id IN (1)
+---------------------
+[1357047234.78] SELECT t.*, tt.* FROM wp_terms AS t INNER JOIN wp_term_taxonomy AS tt ON tt.term_id = t.term_id INNER JOIN wp_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('post_tag') AND tr.object_id IN (41) ORDER BY t.name ASC
+---------------------
+[1357047234.79] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (133)
+---------------------
+[1357047234.79] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (5)
+---------------------
+[1357047234.79] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (132)
+---------------------
+[1357047234.79] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (146)
+---------------------
+[1357047234.79] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (7)
+---------------------
+[1357047234.8] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (37)
+---------------------
+[1357047234.81] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (148)
+---------------------
+[1357047235.06] SET NAMES 'utf8'
+---------------------
+[1357047235.07] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1357047235.33] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1357047235.33] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1357047235.33] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1357047235.33] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1357047235.33] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1357047235.34] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1357047235.36] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (132)
+---------------------
+[1357047235.42] SET NAMES 'utf8'
+---------------------
+[1357047235.43] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1357047235.69] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1357047235.69] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1357047235.69] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1357047235.69] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1357047235.69] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1357047235.69] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1357047235.72] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (132)
+---------------------
+[1357047235.74] SELECT user_id, meta_key, meta_value FROM wp_usermeta WHERE user_id IN (1)
+---------------------
+[1357047235.75] SELECT t.*, tt.* FROM wp_terms AS t INNER JOIN wp_term_taxonomy AS tt ON tt.term_id = t.term_id INNER JOIN wp_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('post_tag') AND tr.object_id IN (132) ORDER BY t.name ASC
+---------------------
+[1357047235.76] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (133)
+---------------------
+[1357047235.76] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (5)
+---------------------
+[1357047235.76] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (146)
+---------------------
+[1357047235.76] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (7)
+---------------------
+[1357047235.77] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (37)
+---------------------
+[1357047235.77] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (41)
+---------------------
+[1357047235.79] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (210,215,220,225,230,235,211,216,221,226,231,236,240,212,217,222,227,232,237,241,244,213,218,223,228,233,238,242,214,219,224,229,234,239,243,202,203,204,205,206,207,208,209)
+---------------------
+[1357050397.49] SET NAMES 'utf8'
+---------------------
+[1357050397.5] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1357050397.89] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1357050397.89] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1357050397.89] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1357050397.9] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1357050397.9] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1357050397.9] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1357050397.93] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (5)
+---------------------
+[1357050398] SET NAMES 'utf8'
+---------------------
+[1357050398.01] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1357050398.27] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1357050398.27] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1357050398.27] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1357050398.27] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1357050398.27] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1357050398.27] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1357050398.29] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (5)
+---------------------
+[1357050398.32] SELECT user_id, meta_key, meta_value FROM wp_usermeta WHERE user_id IN (1)
+---------------------
+[1357050398.33] SELECT t.*, tt.* FROM wp_terms AS t INNER JOIN wp_term_taxonomy AS tt ON tt.term_id = t.term_id INNER JOIN wp_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('post_tag') AND tr.object_id IN (5) ORDER BY t.name ASC
+---------------------
+[1357050398.34] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (133)
+---------------------
+[1357050398.34] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (132)
+---------------------
+[1357050398.34] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (146)
+---------------------
+[1357050398.35] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (7)
+---------------------
+[1357050398.35] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (37)
+---------------------
+[1357050398.35] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (41)
+---------------------
+[1357050398.62] SET NAMES 'utf8'
+---------------------
+[1357050398.63] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1357050398.91] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1357050398.91] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1357050398.91] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1357050398.91] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1357050398.91] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1357050398.92] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1357050398.94] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (7)
+---------------------
+[1357050399] SET NAMES 'utf8'
+---------------------
+[1357050399.01] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1357050399.25] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1357050399.26] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1357050399.26] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1357050399.26] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1357050399.26] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1357050399.26] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1357050399.29] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (7)
+---------------------
+[1357050399.32] SELECT user_id, meta_key, meta_value FROM wp_usermeta WHERE user_id IN (1)
+---------------------
+[1357050399.32] SELECT t.*, tt.* FROM wp_terms AS t INNER JOIN wp_term_taxonomy AS tt ON tt.term_id = t.term_id INNER JOIN wp_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('post_tag') AND tr.object_id IN (7) ORDER BY t.name ASC
+---------------------
+[1357050399.34] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (133)
+---------------------
+[1357050399.34] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (5)
+---------------------
+[1357050399.34] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (132)
+---------------------
+[1357050399.34] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (146)
+---------------------
+[1357050399.34] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (37)
+---------------------
+[1357050399.34] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (41)
+---------------------
+[1357053821.13] SET NAMES 'utf8'
+---------------------
+[1357053821.14] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1357053821.51] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1357053821.51] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1357053821.52] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1357053821.52] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1357053821.52] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1357053821.52] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1357053821.54] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (37)
+---------------------
+[1357053821.6] SET NAMES 'utf8'
+---------------------
+[1357053821.61] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1357053821.88] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1357053821.88] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1357053821.88] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1357053821.88] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1357053821.88] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1357053821.88] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1357053821.92] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (37)
+---------------------
+[1357053821.94] SELECT user_id, meta_key, meta_value FROM wp_usermeta WHERE user_id IN (1)
+---------------------
+[1357053821.94] SELECT t.*, tt.* FROM wp_terms AS t INNER JOIN wp_term_taxonomy AS tt ON tt.term_id = t.term_id INNER JOIN wp_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('post_tag') AND tr.object_id IN (37) ORDER BY t.name ASC
+---------------------
+[1357053821.96] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (133)
+---------------------
+[1357053821.96] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (5)
+---------------------
+[1357053821.96] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (132)
+---------------------
+[1357053821.96] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (146)
+---------------------
+[1357053821.96] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (7)
+---------------------
+[1357053821.96] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (41)
+---------------------
+[1357053822.32] SET NAMES 'utf8'
+---------------------
+[1357053822.34] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1357053822.68] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1357053822.68] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1357053822.68] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1357053822.69] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1357053822.69] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1357053822.69] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1357053822.72] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (41)
+---------------------
+[1357053822.78] SET NAMES 'utf8'
+---------------------
+[1357053822.78] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1357053823.04] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1357053823.05] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1357053823.05] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1357053823.05] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1357053823.05] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1357053823.05] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1357053823.08] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (41)
+---------------------
+[1357053823.1] SELECT user_id, meta_key, meta_value FROM wp_usermeta WHERE user_id IN (1)
+---------------------
+[1357053823.11] SELECT t.*, tt.* FROM wp_terms AS t INNER JOIN wp_term_taxonomy AS tt ON tt.term_id = t.term_id INNER JOIN wp_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('post_tag') AND tr.object_id IN (41) ORDER BY t.name ASC
+---------------------
+[1357053823.12] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (133)
+---------------------
+[1357053823.12] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (5)
+---------------------
+[1357053823.12] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (132)
+---------------------
+[1357053823.12] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (146)
+---------------------
+[1357053823.13] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (7)
+---------------------
+[1357053823.13] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (37)
+---------------------
+[1357053823.14] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (148)
+---------------------
+[1357053826.05] SET NAMES 'utf8'
+---------------------
+[1357053826.07] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1357053826.42] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1357053826.42] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1357053826.42] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1357053826.42] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1357053826.42] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1357053826.42] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1357053826.45] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (133)
+---------------------
+[1357053826.48] SELECT user_id, meta_key, meta_value FROM wp_usermeta WHERE user_id IN (1)
+---------------------
+[1357053826.48] SELECT t.*, tt.* FROM wp_terms AS t INNER JOIN wp_term_taxonomy AS tt ON tt.term_id = t.term_id INNER JOIN wp_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('post_tag') AND tr.object_id IN (133) ORDER BY t.name ASC
+---------------------
+[1357053826.49] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (5)
+---------------------
+[1357053826.49] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (132)
+---------------------
+[1357053826.49] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (146)
+---------------------
+[1357053826.5] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (7)
+---------------------
+[1357053826.5] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (37)
+---------------------
+[1357053826.5] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (41)
+---------------------
+[1357053826.53] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,181,182,183,184,185,186,187,188,189,190)
+---------------------
+[1357053826.9] SET NAMES 'utf8'
+---------------------
+[1357053826.91] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1357053827.16] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1357053827.16] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1357053827.16] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1357053827.16] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1357053827.16] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1357053827.17] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1357053827.19] SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.post_name = 'videos' AND wp_posts.post_type = 'post'  ORDER BY wp_posts.post_date DESC
+---------------------
+[1357053827.2] SELECT option_value FROM wp_options WHERE option_name = 'blueblack_ads_display' LIMIT 1
+---------------------
+[1357053827.2] SELECT option_value FROM wp_options WHERE option_name = 'blueblack_ad_image_one' LIMIT 1
+---------------------
+[1357053827.2] SELECT option_value FROM wp_options WHERE option_name = 'blueblack_ad_url_one' LIMIT 1
+---------------------
+[1357053827.2] SELECT option_value FROM wp_options WHERE option_name = 'blueblack_ad_image_two' LIMIT 1
+---------------------
+[1357053827.2] SELECT option_value FROM wp_options WHERE option_name = 'blueblack_ad_url_two' LIMIT 1
+---------------------
+[1357053827.2] SELECT option_value FROM wp_options WHERE option_name = 'blueblack_banner_display' LIMIT 1
+---------------------
+[1357053827.2] SELECT option_value FROM wp_options WHERE option_name = 'blueblack_banner_url' LIMIT 1
+---------------------
+[1357053827.2] SELECT option_value FROM wp_options WHERE option_name = 'blueblack_banner_image' LIMIT 1
+---------------------
+[1357053827.22] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (133)
+---------------------
+[1357053827.22] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (5)
+---------------------
+[1357053827.22] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (132)
+---------------------
+[1357053827.23] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (146)
+---------------------
+[1357053827.23] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (7)
+---------------------
+[1357053827.23] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (37)
+---------------------
+[1357053827.23] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (41)
+---------------------
+[1357053827.23] SELECT   wp_posts.* FROM wp_posts  WHERE 1=1  AND wp_posts.post_name = 'videos' AND wp_posts.post_type = 'post'  ORDER BY wp_posts.post_date DESC
+---------------------
+[1357053968.5] SET NAMES 'utf8'
+---------------------
+[1357053968.51] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1357053968.76] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1357053968.77] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1357053968.77] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1357053968.77] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1357053968.77] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1357053968.77] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1357053968.8] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (132)
+---------------------
+[1357053968.82] SELECT user_id, meta_key, meta_value FROM wp_usermeta WHERE user_id IN (1)
+---------------------
+[1357053968.83] SELECT t.*, tt.* FROM wp_terms AS t INNER JOIN wp_term_taxonomy AS tt ON tt.term_id = t.term_id INNER JOIN wp_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('post_tag') AND tr.object_id IN (132) ORDER BY t.name ASC
+---------------------
+[1357053968.84] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (133)
+---------------------
+[1357053968.84] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (5)
+---------------------
+[1357053968.84] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (146)
+---------------------
+[1357053968.84] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (7)
+---------------------
+[1357053968.84] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (37)
+---------------------
+[1357053968.84] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (41)
+---------------------
+[1357053968.88] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (210,215,220,225,230,235,211,216,221,226,231,236,240,212,217,222,227,232,237,241,244,213,218,223,228,233,238,242,214,219,224,229,234,239,243,202,203,204,205,206,207,208,209)
+---------------------
+[1357053969.41] SET NAMES 'utf8'
+---------------------
+[1357053969.42] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1357053969.68] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1357053969.68] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1357053969.68] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1357053969.68] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1357053969.68] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1357053969.68] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1357053969.71] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (133)
+---------------------
+[1357053969.76] SET NAMES 'utf8'
+---------------------
+[1357053969.77] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1357053970.03] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1357053970.03] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1357053970.03] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1357053970.04] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1357053970.04] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1357053970.04] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1357053970.06] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (133)
+---------------------
+[1357053970.09] SELECT user_id, meta_key, meta_value FROM wp_usermeta WHERE user_id IN (1)
+---------------------
+[1357053970.09] SELECT t.*, tt.* FROM wp_terms AS t INNER JOIN wp_term_taxonomy AS tt ON tt.term_id = t.term_id INNER JOIN wp_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('post_tag') AND tr.object_id IN (133) ORDER BY t.name ASC
+---------------------
+[1357053970.1] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (5)
+---------------------
+[1357053970.1] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (132)
+---------------------
+[1357053970.1] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (146)
+---------------------
+[1357053970.11] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (7)
+---------------------
+[1357053970.11] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (37)
+---------------------
+[1357053970.11] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (41)
+---------------------
+[1357053970.13] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,181,182,183,184,185,186,187,188,189,190)
+---------------------
+[1359152144.67] SET NAMES 'utf8'
+---------------------
+[1359152144.69] SELECT option_name, option_value FROM wp_options WHERE autoload = 'yes'
+---------------------
+[1359152145.13] SELECT option_value FROM wp_options WHERE option_name = 'widget_pages' LIMIT 1
+---------------------
+[1359152145.14] SELECT option_value FROM wp_options WHERE option_name = 'widget_calendar' LIMIT 1
+---------------------
+[1359152145.14] SELECT option_value FROM wp_options WHERE option_name = 'widget_links' LIMIT 1
+---------------------
+[1359152145.14] SELECT option_value FROM wp_options WHERE option_name = 'widget_tag_cloud' LIMIT 1
+---------------------
+[1359152145.14] SELECT option_value FROM wp_options WHERE option_name = 'widget_nav_menu' LIMIT 1
+---------------------
+[1359152145.14] SELECT option_value FROM wp_options WHERE option_name = '_transient_timeout_doing_cron' LIMIT 1
+---------------------
+[1359152145.14] SELECT autoload FROM wp_options WHERE option_name = '_transient_doing_cron'
+---------------------
+[1359152145.14] SELECT autoload FROM wp_options WHERE option_name = '_transient_timeout_doing_cron'
+---------------------
+[1359152145.14] SELECT option_value FROM wp_options WHERE option_name = '_transient_doing_cron' LIMIT 1
+---------------------
+[1359152145.17] SELECT option_value FROM wp_options WHERE option_name = 'aiosp_post_title_format' LIMIT 1
+---------------------
+[1359152145.2] SELECT post_id, meta_key, meta_value FROM wp_postmeta WHERE post_id IN (252)
+---------------------
+[1359152145.21] SELECT user_id, meta_key, meta_value FROM wp_usermeta WHERE user_id IN (1)
+---------------------
